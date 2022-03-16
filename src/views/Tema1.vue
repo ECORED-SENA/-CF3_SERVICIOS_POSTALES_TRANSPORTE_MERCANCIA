@@ -341,12 +341,60 @@
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/27.svg', alt='Texto que describa la imagen')
-          figcaption Leyenda de la imagen
-      .row(x="44%" y="29%" tooltip="Zona Envasado" numero="").align-items-center
+      .row(x="69%" y="57%" tooltip="Zona de recepcion" numero="").align-items-center
         .col-lg-8
           h4 Zona de recepción
           p Zona de entrada de la mercancía, donde se realiza un control cuantitativo (unidades correctas con el registro) y cualitativo de la mercancía (calidad y estado).  Posteriormente será clasificada y distribuida en la bodega.
         .col-lg-4: img(src='@/assets/curso/28.jpg')
+      .row(x="64%" y="53%" tooltip="Zona de carga y descarga" numero="").align-items-center
+        .col-lg-8
+          h4 Zona de carga y descarga
+          p Área donde se desarrollan actividades de descarga de los vehículos que traen la mercancía, procedente de los proveedores y las devoluciones que realizan los clientes; esta zona cuenta con muelles de carga y descarga.  Aquí se realiza el primer punto de control.
+        .col-lg-4: img(src='@/assets/curso/29.jpg')
+      .row(x="70%" y="34%" tooltip="Zona de Cuarentena" numero="").align-items-center
+        .col-lg-8
+          h4 Zona de Cuarentena
+          p Esta zona aplica más para aquellas bodegas que almacenan productos farmacéuticos o agro-alimentos, los cuales, por normativa, exige unos análisis previos al almacenamiento para saber si están en buen estado o no.  Por tanto, hasta no saber el estado no podrán almacenar.
+        .col-lg-4: img(src='@/assets/curso/30.jpg')
+      .row(x="39%" y="27%" tooltip="Almacenaje" numero="").align-items-center
+        .col-lg-12
+          h4 Zona de Almacenamiento
+          p Lugar donde se depositan mercancías hasta registrar la expedición; aquí se diferencian dos áreas: A) Stock, destinada a reserva de productos, que se trasladan a otras áreas donde se prepararán para consolidación. El almacenamiento se realiza en estanterías industriales para aprovechamiento de la superficie horizontal y altura, dependiendo de las características del producto almacenado.  B) Picking, donde se preparan pedidos para embalaje.  Los tiempos y recorrido de la mercancía son cortos; aquí son necesarios equipos de manipulación de mercancía específicos y soluciones de almacenamiento como cartón flow o estantería para cargas livianas.
+      .row(x="57%" y="27%" tooltip="Zona espera" numero="").align-items-center
+        .col-lg-8
+          h4 Zona de Espera
+          p Esta zona es utilizada, por lo general, para atender imprevistos que se puedan presentar como: rapidez o lentitud en la preparación de los pedidos y que lleguen a generar adelantos o retrasos al momento de hacer entrega al transportador.
+        .col-lg-4: img(src='@/assets/curso/31.jpg')
+      .row(x="29%" y="27%" tooltip="Zona envasado" numero="").align-items-center
+        .col-lg-8
+          h4 Zona de Envasado
+          p Envasado o re-envasado, esta zona se encuentra en aquellas bodegas o almacenes donde es necesario volver a envasar o repaletizar (estibar) y conformar nuevas unidades de carga, por razones de almacenamiento, sanidad e higiene.
+        .col-lg-4: img(src='@/assets/curso/32.jpg')
+      .row(x="63%" y="34%" tooltip="Zona envasado" numero="").align-items-center
+        .col-lg-8
+          h4 Zona de etiquetado
+          p Aquí se realiza todo el proceso de acondicionamiento de productos para protegerlos, temporalmente, para posterior manipulación y transporte; el embalaje puede ser manual o a través de equipos automatizados. Esta zona debe ubicarse cerca de mecanismos de envasado, en caso de ser necesario, y edición de etiquetas para registrar en medios informáticos.
+        .col-lg-4: img(src='@/assets/curso/33.jpg')
+      .row(x="44%" y="65%" tooltip="Consolidación" numero="").align-items-center
+        .col-lg-8
+          h4 Zona de Consolidación
+          p Aquí se agrupa una variedad de productos que correspondan a un mismo pedido, incluso de diferentes proveedores y así realizar un envío de mayor volumen a menor costo. En algunas ocasiones esta actividad la realiza, directamente, la empresa de transporte.
+        .col-lg-4: img(src='@/assets/curso/34.jpg')
+      .row(x="44%" y="53%" tooltip="Zona Ténica" numero="").align-items-center
+        .col-lg-8
+          h4 Zona Técnica
+          p Aquí se desarrollan actividades, principalmente, de mantenimiento de equipos técnicos y mecánicos que utilice el área operativa; en ocasiones es compartido el espacio con elementos que han sido dados de baja o son deficientes para la operación. Se sugiere que esta zona se encuentre retirada del resto de las áreas por seguridad del personal y la propia mercancía.
+        .col-lg-4: img(src='@/assets/curso/35.jpg')
+      .row(x="49%" y="80%" tooltip="Administrativa" numero="").align-items-center
+        .col-lg-8
+          h4 Zona Administrativa
+          p Área destinada para oficinas, atención al cliente o para transportadores, salas de reunión, casino, vestieres; o, como se denomina en calidad, para gestión organizacional del almacén.
+        .col-lg-4: img(src='@/assets/curso/36.jpg')
+      .row(x="17%" y="70%" tooltip="Despacho" numero="").align-items-center
+        .col-lg-8
+          h4 Zona de control de salida o despacho
+          p Aquí se verifica que las mercancías relacionadas en el pedido correspondan con los registros documentales de preparación del pedido o solicitud del cliente.  Por lo regular, en esta área, se acumulan las mercancías que serán cargadas en los vehículos.
+        .col-lg-4: img(src='@/assets/curso/37.jpg')
 
 
 
@@ -394,7 +442,7 @@ export default {
 }
 </script>
 
-<style lang="sass" scope>
+<style lang="sass" ;scoped>
 .dots-1
   .img-infografica__item__dot
     background-color: #f5f5f5
@@ -424,8 +472,15 @@ export default {
   background-color: $color-primario
   font-weight: bold
 .img-infografica-b__modal
+  position: absolute
   background-color: #dce0f9
   border-radius: 10px
+  min-height: 30% !important
+  top: 30%
+  left: 10%
+  width: 80%
   h4, p
     color: $color-sistema-texto !important
+.img-infografica-b__img
+  position: relative !important
 </style>
