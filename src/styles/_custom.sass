@@ -12,3 +12,30 @@
     background-color: #a4a3ff
 .bg--a-1
   background-color: #acfcff
+.texto-seis-alt
+  position: relative
+  p
+    margin-left: 20px
+  &:before
+    content: ' '
+    display: block
+    width: 4px
+    height: 21px
+    background-color: $color-primario
+    position: absolute
+    left: 0
+    top: 0
+  &.color-primario
+    &:before
+      background-color: $color-primario
+  &.color-secundario
+    &:before
+      background-color: $color-secundario
+  &.color-acento-contenido
+    &:before
+      background-color: $color-acento-contenido
+  &.color-acento-botones
+    &:before
+      background-color: $color-acento-botones
+.bg-3-claro
+  background-color: #ffcec9 !important
