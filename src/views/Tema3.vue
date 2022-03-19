@@ -207,7 +207,6 @@
                 td <b>PRODUCTOS B:</b> Rotación de productos Media
               tr
                 td <b>PRODUCTOS C:</b> Rotación de productos Baja o Nula.
-    //todo PENDIENTE AGREGAR EL DOCUMENTO ENLACE
     .tarjeta.color-primario.p-3.mb-3
       .row.justify-content-around.align-items-center.px-5
         .col-3.col-sm-2.col-lg-1
@@ -217,11 +216,9 @@
             .col.mb-3.mb-sm-0
               p.text-small.mb-0 Amplíe la información sobre “Inventarios”, ingresando a la biblioteca virtual SENA y explorando el archivo: <b>Gestión lógica y comercial.</b> (Gómez Aparicio, J.M., 2013).
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/50240?page=1" target="_blank")
                 span Ver más 
                 i.fas.fa-file-download
-    //todo PENDIENTE AGREGAR EL DOCUMENTO ENLACE              
-    //todo PENDIENTE AGREGAR EL DOCUMENTO ENLACE
     .tarjeta.color-secundario.p-3.mb-5
       .row.justify-content-around.align-items-center.px-5
         .col-3.col-sm-2.col-lg-1
@@ -231,10 +228,9 @@
             .col.mb-3.mb-sm-0
               p.text-small.mb-0.text-white Para afianzar su saber y manejo de las Variables de las mercancías postales, dentro del proceso y métodos de verificación, visite el <b>Anexo_2_VariablesMercanciasPostales.</b>
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/documento5.pdf')" target="_blank")
                 span Ver más 
                 i.fas.fa-file-download
-    //todo PENDIENTE AGREGAR EL DOCUMENTO ENLACE
     Separador
     #t_3_3.titulo-segundo.color-acento-contenido
       h2 3.3 Clasificación de mercancía de acuerdo a novedad        
@@ -403,21 +399,339 @@
     p.mb-5 Visualice en el siguiente esquema, un ejemplo en cual se aplican los sistemas informáticos en la gestión de un almacén:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10: img(src='@/assets/curso/117.svg')
-    //todo PENDIENTE AGREGAR EL DOCUMENTO ENLACE
-    .tarjeta.color-primario.p-3.mb-3
+    .tarjeta.color-primario.p-3.mb-5
       .row.justify-content-around.align-items-center.px-5
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/26.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.text-small.mb-0 Refuerce los aspectos más importantes de este punto, ingresando a la biblioteca virtual SENA y estudiando el documento: Gestión y pedido de Stock (Rubio Ferrer, J., 2013):
+              p.text-small.mb-0 Refuerce los aspectos más importantes de este punto, ingresando a la biblioteca virtual SENA y estudiando el documento: <b>Gestión y pedido de Stock (Rubio Ferrer, J., 2013):</b>
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/49351?page=159" target="_blank")
                 span Ver más 
                 i.fas.fa-file-download
-    //todo PENDIENTE AGREGAR EL DOCUMENTO ENLACE  
+    h3.titulo-tercero Integración de las tecnologías
+    .row.justify-content-center.mb-5.mt-5
+      .col-lg-8
+        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.position-relative
+          .bloque-texto-g__img(
+            :style="{'background-image':`url(${require('@/assets/curso/125.jpg')})`}"
+          )
+            .imagen-superior.position-absolute(style='bottom:0 ; left: 6%'): img(src='@/assets/curso/126.png')
+          .bloque-texto-g__texto.p-4
+            p.mb-0 El sistema de Radiofrecuencia (RFID) ha facilitado la gestión, el control y eficiencia en las operaciones del almacén; facilitando el almacenamiento y recuperación de la información (datos), apoyado en los diferentes dispositivos como lectores de códigos, de barras o infrarrojos y PDA, principalmente. 
+    .titulo-sexto.color-primario
+      h5 Figura 2
+      span Integración y funcionamiento de las tecnologías en el almacén.
+    figure.mb-5
+      img(src='@/assets/curso/127.svg', alt='Texto que describa la imagen')
+    p.mb-5 Las siguientes son algunas utilidades y beneficios que trae la aplicación y uso de las herramientas digitales en las actividades desarrolladas dentro del almacén:
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-11
+        ol.lista-ol--cuadro.lista-ol--separador
+          li 
+            .lista-ol--cuadro__vineta
+              span a
+            | Mayor cantidad de datos almacenados.
+          li 
+            .lista-ol--cuadro__vineta
+              span b
+            | Facilitar la comunicación entre los diferentes sistemas .
+          li 
+            .lista-ol--cuadro__vineta
+              span c
+            | Información en tiempo real.
+          li 
+            .lista-ol--cuadro__vineta
+              span d
+            | Poder hacer cambios y seguimiento durante la cadena de suministro.
+          li 
+            .lista-ol--cuadro__vineta
+              span e
+            | Mejor control de los inventarios y reducción de tiempos.
+          li 
+            .lista-ol--cuadro__vineta
+              span f
+            | Aportar valor en el servicio de atención al cliente (mantiene informado).
+          li 
+            .lista-ol--cuadro__vineta
+              span g
+            | Amabilidad con el medioambiente, en la reducción de papelería.
+    Separador
+    #t_3_5.titulo-segundo.color-acento-contenido
+      h2 Generalidades bases de datos
+    .row.justify-content-center.align-items-center.mb-5.mt-5
+      .col-lg-4
+          img(src='@/assets/curso/128.png', alt='Texto que describa la imagen')
+      .col-lg-7
+        p  A lo largo de la cadena de suministro, en logística, se genera gran cantidad de información que, para este caso se denomina datos; los cuales se han multiplicado y revolucionado con las tecnologías de los últimos años. 
+        .cajon.bg-purple-claro2.p-4.mb-4
+          p En busca de una solución para el control y gestión de la información, se ha recurrido a sistemas de información que logren generar valor a los datos, para la toma de decisiones. Hoy en día se conoce como tecnología 4.0 y suministros inteligentes <b><em>“Big Data”</em></b>.  
+    .row.mb-5
+      .col-lg-6.mb-3
+        .tarjeta-text-up.mb-5(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/129.jpg')
+          .tarjeta-text-up__texto.p-4
+            h4 Logística / Logística 4.0
+            br
+            br
+            p Denominada también Cuarta Revolución Industrial. 
+              br
+              br
+              |4.0 indica innovación, nuevas formas de hacer logística: el uso de herramientas novedosas optimiza el desarrollo de procesos, cadenas de suministro inteligentes (Big Data o Machine Learning). 
+      .col-lg-6.mb-3
+        .tarjeta-text-up.mb-5.d-flex
+          img(src='@/assets/curso/130.jpg')
+          .tarjeta-text-up__texto.p-4
+            h4 Fuentes de información
+            br
+            br
+            p Debido al volumen de datos que maneja la cadena de suministro es imposible analizar y tomar decisiones con métodos tradicionales. Se requiere organizar  diferentes fuentes para suministro de información:
+            ul.lista-ul--color
+              li
+                i.fas.fa-angle-right
+                | Alertas de desabastecimiento en el centro de distribución.
+              li
+                i.fas.fa-angle-right
+                | Flujos de distribución y rutas de transporte.
 
+              li
+                i.fas.fa-angle-right
+                | Control de inventarios.
+              li
+                i.fas.fa-angle-right
+                | Proyecciones contables.
+              li
+                i.fas.fa-angle-right
+                | Comportamiento de  usuarios, con registros en sitios web.
+              li
+                i.fas.fa-angle-right
+                | Servicio de atención al cliente.
+              li
+                i.fas.fa-angle-right
+                p.mb-0 <b>Reportes del área de transporte:</b> con apoyo de sensores y tecnologías GPS. Es posible controlar horarios, recorridos, consumo de combustible, estado del tiempo y de las vías.
+              li
+                i.fas.fa-angle-right
+                | Mantenimiento preventivo de equipos y herramientas.
+    Separador
+    #t_3_6.titulo-segundo.color-acento-contenido
+      h2 3.6 Reporte de novedades e inconsistencias
+    p.mb-5 En logística, existe una importante variedad de información que permite medir y controlar la gestión.  Sin embargo, se debe tener en cuenta qué se quiere medir, para lograr identificar los datos necesarios en el registro y análisis de la información.
+      br
+      br
+      |En lo referente a reportes de novedades e inconsistencias, hay que conocer y aplicar conceptos y procedimientos como los que se mencionan a continuación: 
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        LineaTiempoD.color-acento-contenido
+          .row(numero="1" titulo="Novedad").align-items-center
+            .col-md-3
+              figure
+                img(src='@/assets/curso/131.svg', alt='Texto que describa la imagen')
+            .col-md-9.mb-4.mb-md-0
+              p Condición especial de la mercancía identificada en el envío, como: novedad respecto al destino, cuando se hizo envío de mercancía a una ciudad diferente a la solicitada, con destino a un Apartado Aéreo, direcciones cruzadas o confusas. No se hacen entregas en cárceles o guarniciones militares.
+          .row(numero="2" titulo="Novedad respecto al Riesgo").align-items-center
+            .col-md-3
+              figure
+                img(src='@/assets/curso/132.svg', alt='Texto que describa la imagen')
+            .col-md-9.mb-4.mb-md-0
+              p Riesgo en seguridad de la mercancía:  metales preciosos y otros objetos de valor.  Dinero en efectivo, joyas o piedras finas.  Bonos o tickets pagaderos al portador.  Antigüedades y obras de arte.
+          .row(numero="3" titulo="Novedad respecto al embalaje y empaque").align-items-center
+            .col-md-3
+              figure
+                img(src='@/assets/curso/133.svg', alt='Texto que describa la imagen')
+            .col-md-9.mb-4.mb-md-0
+              p Mercancía con empaque y embalaje no adecuados. Cajas de cartón amarradas o selladas inadecuadamente. Empaques deteriorados o manchados.  Empaques que contengan más de un rótulo diferente. 
+                br
+                |Unidades de empaque reutilizados. 
+          .row(numero="4" titulo="Novedad por diligenciamiento de documentos").align-items-center
+            .col-md-3
+              figure
+                img(src='@/assets/curso/134.svg', alt='Texto que describa la imagen')
+            .col-md-9.mb-4.mb-md-0
+              p No se encuentra el valor declarado, lo cual exime responsabilidades.  Falta de información, espacios sin diligenciar, tachones o enmendaduras en formularios.
+          .row(numero="5" titulo="Inconsistencia").align-items-center
+            .col-md-3
+              figure
+                img(src='@/assets/curso/135.svg', alt='Texto que describa la imagen')
+            .col-md-9.mb-4.mb-md-0
+              p Defectos de mercancía encontrados al verificar, según información de documentos que lo acompañan:  embalaje o entrega de la mercancía inadecuada según solicitud de pedido, cantidad o artículo erróneo, falta de algún artículo, error en los registros, ubicación incorrecta, etc.
+          .row(numero="6" titulo="Indicador de desempeño").align-items-center
+            .col-md-3
+              figure
+                img(src='@/assets/curso/136.svg', alt='Texto que describa la imagen')
+            .col-md-9.mb-4.mb-md-0
+              p Aquellos indicadores que se enfocan a cuantificar el desempeño de la gestión logística y cadena de abastecimiento.
+          .row(numero="7" titulo="Logística").align-items-center
+            .col-md-3
+              figure
+                img(src='@/assets/curso/137.svg', alt='Texto que describa la imagen')
+            .col-md-9.mb-4.mb-md-0
+              p Conjunto de actividades necesarias para prestar un servicio, desde la compra, empaquetado, transporte, envío y entrega al cliente final.  Cómo llevar de la manera más eficiente y eficaz la mercancía a los clientes.
+          .row(numero="8" titulo="Hoja de carga").align-items-center
+            .col-md-3
+              figure
+                img(src='@/assets/curso/138.svg', alt='Texto que describa la imagen')
+            .col-md-9.mb-4.mb-md-0
+              p Traer todo aquello que se requiere para desarrollar una actividad específica.
+    br
+    br
+    .row.justify-content-center.mb-5.mt-5
+      .col-lg-9
+        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.position-relative
+          .bloque-texto-g__img(
+            :style="{'background-image':`url(${require('@/assets/curso/139.jpg')})`}"
+          )
+            .imagen-superior.position-absolute(style='bottom:0 ; left: -3%'): img(src='@/assets/curso/140.png')
+          .bloque-texto-g__texto.p-4
+            p.mb-0 Dentro de la cadena logística existen cinco áreas genéricas: Planificación de pedios, Abastecimiento, Transporte, Gestión de Pedidos y Distribución.  En cada una de estas áreas se mide y controlan diferentes variables (expresados en indicadores), depende del tipo de organización.
+    p.mb-5 Esta es una explicación sintética de las cinco principales áreas de la cadena logística:
+    .titulo-sexto.color-acento-
+      h5 Tabla 10
+      span Principales áreas en logística e Indicadores 
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .tabla-a.color-primario.mb-5
+          table
+            thead.bg-blue.text-white
+              tr
+                th ÁREAS
+                th INDICADORES
+            tbody
+              tr
+                td(rowspan='3').fw-bold.text-center Cadena de Abastecimiento
+                td Rotación de Inventario
+              tr
+                td Stock de materias primas no planificadas
+              tr
+                td Errores de previsión de demanda
+              tr
+                td(rowspan='5').fw-bold.text-center Abastecimiento
+                td Rotación de materia prima
+              tr
+                td Costo compras
+              tr
+                td Plazo aprovisionamiento
+              tr
+                td Plazo de pagos
+              tr
+                td Errores de acturación
+              tr
+                td(rowspan='7').fw-bold.text-center Transporte
+                td Costo transporte unitario
+              tr
+                td Costo por kilómetro
+              tr
+                td Costo transporte sobre ventas
+              tr
+                td Costo por kilográmo
+              tr
+                td Entregas a tiempo
+              tr
+                td Entregas Urgentes
+              tr
+                td Envíos por pedido
+              tr
+                td(rowspan='4').fw-bold.text-center Distribución
+                td Productividad  vs volúmen
+              tr
+                td Productividad vs mano de obra
+              tr
+                td Unidades procesadas
+              tr
+                td Plazo de envío a centro de distribución
+              tr
+                td(rowspan='7').fw-bold.bg-purple-claro.text-center Gestión de pedidos o de calidad
+                td <b>Entregas perfectas:</b>  ingreso correcto y entregas sin daños ni averías
+              tr
+                td <b>Entregas a tiempo</b> y lugar indicado
+              tr
+                td <b>Entregas completas:</b> cantidades exactas y correctas
+              tr
+                td <b>Empacados de acuerdo al cliente.</b>  Información del estado durante 24 horas
+              tr
+                td <b>Pedidos documentados sin errores</b>
+              tr
+                td <b>Averías:</b> Por empaque o Durante el transporte.
+              tr
+                td <b>Servicio al cliente:</b>  Cumplimiento de tiempos y  entrega
+    h3.titulo-tercero Registro de Inconsistencias y Novedades
+    .row.justify-content-center.align-items-center.mb-5.mt-5
+      .col-lg-4
+          img(src='@/assets/curso/141.png', alt='Texto que describa la imagen')
+      .col-lg-7
+        p Dentro del proceso logístico existe un documento denominado Nota de entrega (Albarán) Su función es servir como respaldo y crédito de la entrega de mercancía al cliente, en las condiciones inicialmente pactadas y así generar la información para elaborar la factura. En el caso que la mercancía recibida no cumpla con lo solicitado o registrado en el pedido, podrá devolverse al sitio de despacho y dejar por escrito la salvedad de la devolución firmando y describiendo los detalles en el albarán.
+    p.mb-5 La información que debe contener es:
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-11
+        ol.lista-ol--cuadro.lista-ol--separador
+          li 
+            .lista-ol--cuadro__vineta
+              span a
+            | Datos completos del remitente o quien envía la mercancía: Nombre, razón social, dirección, teléfono, correo electrónico, etc.
+              
+          li 
+            .lista-ol--cuadro__vineta
+              span b
+            | Número de orden y fecha de emisión.
+              
+          li 
+            .lista-ol--cuadro__vineta
+              span c
+            | Transportista: Nombre del transportista o empresa transportadora.  Forma de envío.
+
+              
+          li 
+            .lista-ol--cuadro__vineta
+              span d
+            | Datos específicos de la mercancía: descripción, código, cantidad, valor.
+              
+          li 
+            .lista-ol--cuadro__vineta
+              span e
+            | Fecha de salida de la mercancía.
+              
+          li 
+            .lista-ol--cuadro__vineta
+              span f
+            | Número de referencia y fecha del pedido.
+              
+          li 
+            .lista-ol--cuadro__vineta
+              span g
+            | Datos completos Destinatario o quien recibe.  Lugar y condiciones de entrega.
+              
+          li 
+            .lista-ol--cuadro__vineta
+              span h
+            | Observaciones: novedades o inconsistencias al momento de verificar.  En caso que no sea posible realizar la verificación, se sugiere anotar “Aceptado sin revisar”.  
+              
+          li 
+            .lista-ol--cuadro__vineta
+              span i
+            | Otro documento que se puede utilizar para registrar las inconsistencias es la hoja de agencia de transporte, pues en ocasiones la novedad se presenta durante el transporte.
+              
+          li 
+            .lista-ol--cuadro__vineta
+              span j
+            | Quién recibe: Nombre, identificación y firma de quien recibe o empresa receptora.
+              
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4
+        .tarjeta.color-primario.boton-modal.position-relative.p-5(@click="modal7 = true" @mouseover="mostrarIndicador = false")
+          .indicador--click(v-if="mostrarIndicador")
+          img(src='@/assets/curso/142.svg', alt='Texto que describa la imagen' style='width: 122px; position: absolute; top: -5%; left: 20px;')
+          .row.justify-content-end
+            .col-6
+              h4.mb-0 Importante
+    ModalA(:abrir-modal.sync="modal7")
+      .contenido-modal
+        .titulo-sexto.color-primario
+          h5 Figura 3
+          span Modelo nota de Entrega / Albarán
+        figure.mb-5
+          img(src='@/assets/curso/143.png', alt='Texto que describa la imagen')
 
 
 
@@ -437,6 +751,7 @@ export default {
     modal4: false,
     modal5: false,
     modal6: false,
+    modal7: false,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -471,6 +786,10 @@ export default {
   background-color: #97a1ee
 .bg-purple-claro
   background-color: #bac1f3
+.bg-purple-claro2
+  background-color: #dce0f9 !important
+  &:before
+    background-color: #7380df
 .bg-amarillo-claro
   background-color: #fff0cd
 .bg-red
@@ -555,4 +874,20 @@ export default {
     transform: translateY(-10)
   100%
     transform: translateY(10px)
+.tarjeta-text-up
+  position: relative
+  overflow: hidden
+  &__texto
+    position: absolute
+    bottom: -78%
+    left: 0
+    width: 100%
+    height: 90%
+    background-color: rgba(255, 247, 230, 0.9)
+    transition: all .5s ease-in-out
+  &:hover
+    .tarjeta-text-up__texto
+      bottom: 0
+.boton-modal
+  cursor: pointer
 </style>

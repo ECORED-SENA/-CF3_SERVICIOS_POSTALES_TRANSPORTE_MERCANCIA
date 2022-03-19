@@ -330,9 +330,9 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.text-small.mb-0 El almacén desempeña varias funciones, dependiendo de la clasificación de productos. Explore el Anexo_1_PrincipalesFuncionesDelAlmacen y amplíe sus conocimientos en este punto. 
+              p.text-small.mb-0 El almacén desempeña varias funciones, dependiendo de la clasificación de productos. <b>Explore el Anexo_1_PrincipalesFuncionesDelAlmacen</b> y amplíe sus conocimientos en este punto. 
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/documento0.pdf')" target="_blank")
                 span Ver más 
                 i.fas.fa-file-download
     //todo PENDIENTE AGREGAR EL DOCUMENTO ENLACE
@@ -400,7 +400,6 @@
 
 
 
-    //todo PENDIENTE AGREGAR EL DOCUMENTO ENLACE
     .tarjeta.color-primario.p-3.mb-5
       .row.justify-content-around.align-items-center.px-5
         .col-3.col-sm-2.col-lg-1
@@ -410,10 +409,9 @@
             .col.mb-3.mb-sm-0
               p.text-small.mb-0 Profundice en los aspectos más importantes, relativos a las zonas del almacén, estudiando conscientemente el documento: <b>Guía del Almacén en la cadena logística.</b>
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/documento4.pdf')" target="_blank")
                 span Ver más 
                 i.fas.fa-file-download
-    //todo PENDIENTE AGREGAR EL DOCUMENTO ENLACE
 
 
 

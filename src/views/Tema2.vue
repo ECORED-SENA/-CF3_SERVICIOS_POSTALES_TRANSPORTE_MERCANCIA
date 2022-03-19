@@ -464,7 +464,7 @@
             .col.mb-3.mb-sm-0
               p.text-small.mb-0 Profundice en los aspectos más importantes, relativos a las zonas del almacén, estudiando conscientemente el documento: <b>Guía del Almacén en la cadena logística.</b>
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/50249?page=71" target="_blank")
                 span Ver más 
                 i.fas.fa-file-download
     //todo PENDIENTE AGREGAR EL DOCUMENTO ENLACE
