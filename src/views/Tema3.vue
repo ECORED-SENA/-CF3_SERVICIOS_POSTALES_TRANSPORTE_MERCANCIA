@@ -16,7 +16,7 @@
     p.mb-5 Estas son algunas particularidades de la gestión de pedidos, que deben tenerse muy en cuenta:
     .row.mb-5.justify-content-center.mb-5
       .col-lg-5.mb-3
-        .tarjetas-up_card.bg-purple.p-5(@mouseover="mostrarIndicador = false")
+        .tarjetas-up_card.bg-purple-claro2.p-5(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/81.svg', alt='Texto que describa la imagen' style='width: 102px')
           .title.d-flex.align-items-center.mb-4
@@ -41,13 +41,13 @@
     p.mb-5 Desde el Ministerio de Tecnologías de la Información y las Comunicaciones (MinTIC), a través del “Plan Nacional de Desarrollo 2018 - 2022 Pacto por Colombia, Pacto por la Equidad” (PND), se promoverá la modernización del sector postal, tomando como principios los lineamientos consignados en el Pacto por la Transformación Digital de Colombia. Allí, resaltan la necesidad de potencializar los servicios postales, en el marco de una economía cada vez más digital y el comercio electrónico. 
     .row.justify-content-center.mb-5
       .col-lg-9
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.postion-relative
+        .bloque-texto-g.color-acento-contenido.bloque-editado.p-3.p-sm-4.p-md-5.postion-relative
           .img(style="top: 34%; left: 4%; z-index: 1; width: 40%;")
             img(src='@/assets/curso/83.png', alt='Texto que describa la imagen')
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/84.svg')})`}"
           )
-          .bloque-texto-g__texto.p-4.ps-5
+          .bloque-texto-g__texto.p-5
             p.mb-0 Los servicios postales en Colombia han permitido y apoyado el despliegue de nuevos productos y servicios postales como el comercio electrónico, el acercamiento de la demanda con la oferta de productos de todos los sectores de la economía y, además, han facilitado el envío de piezas postales a zonas alejadas del país.
     p.mb-5 Estudie el glosario de términos, expuesto en el Plan de Modernización postal 2020 – 2024, mediante el recurso que se muestra a continuación:
     .row.justify-content-center.mb-5
@@ -123,7 +123,7 @@
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta-up.tarjeta.color-primario.p-5.h-100
           img(src='@/assets/curso/93.jpg')
-          h3 Colocación de pedidos
+          h3 Código de barras
           ul.lista-ul
             li
               i.vineta__1
@@ -188,25 +188,25 @@
             tbody
               tr
                 td(rowspan='3').fw-bold.px-5 GESTIÓN DE LAS EXISTENCIAS
-                td <b>LIFO:</b> Ultimo que entra es el primero que sale.  Habitualmente para productos que no tienen caducidad.
+                td <b>LIFO:</b> último que entra es el primero que sale.  Habitualmente para productos que no tienen caducidad.
               tr
-                td <b>FIFO:</b> Primero que entra es el primero que sale. La mercancía con mayor antigüedad es la que primero debe salir.
+                td <b>FIFO:</b> primero que entra es el primero que sale. La mercancía con mayor antigüedad es la que primero debe salir.
               tr
-                td <b>FEFO:</b> El primero que caduca es el primero que sale. La mercancía se ubica de acuerdo a la fecha de vencimiento, para que salga primero.
+                td <b>FEFO:</b> el primero que caduca es el primero que sale. La mercancía se ubica de acuerdo a la fecha de vencimiento, para que salga primero.
               tr
                 td(rowspan='3').fw-bold.px-5 METODOLOGÍAS DE CONTEO DE LA MERCANCÍA 
-                td <b>PERIODICO:</b> El contero se realiza al final del periodo.   
+                td <b>PERIÓDICO:</b> el contero se realiza al final del periodo.   
               tr
-                td <b>PERMANENTE:</b> Se realiza continuamente la verificación de las existencias. El inventario permanece actualizado.
+                td <b>PERMANENTE:</b> se realiza continuamente la verificación de las existencias. El inventario permanece actualizado.
               tr
-                td <b>FISICO:</b> Verificación ocular  de las existencias registradas.  Importante realizar en periodos de baja actividad, para no interferir con el proceso.
+                td <b>FÍSICO:</b> verificación ocular  de las existencias registradas.  Importante realizar en periodos de baja actividad, para no interferir con el proceso.
               tr
                 td(rowspan='3').fw-bold.px-5 DISTRIBUCIÓN DE INVENTARIOS (ABC)
-                td <b>PRODUCTOS A:</b> Rotación de productos Alta o Muy Alta
+                td <b>PRODUCTOS A:</b> rotación de productos alta o muy alta
               tr
-                td <b>PRODUCTOS B:</b> Rotación de productos Media
+                td <b>PRODUCTOS B:</b> rotación de productos media
               tr
-                td <b>PRODUCTOS C:</b> Rotación de productos Baja o Nula.
+                td <b>PRODUCTOS C:</b> rotación de productos baja o nula.
     .tarjeta.color-primario.p-3.mb-3
       .row.justify-content-around.align-items-center.px-5
         .col-3.col-sm-2.col-lg-1
@@ -269,7 +269,7 @@
           img(src='@/assets/curso/100.png', alt='Texto que describa la imagen')
       .col-lg-7
         p Aquellas devoluciones que ocurren en el almacén se originan por diversas causas, por tanto, deben tener diferentes tratamientos y una zona en bodega, que permita el reintegro al almacén nuevamente.  Así la logística de devoluciones se encarga del retorno de los productos a la empresa y embalaje respectivo; lo que se conoce como logística inversa o de recuperación. 
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-primario
       h5 Tabla 9
       span Principales razones de las devoluciones de productos
     .row.justify-content-center.mb-5
@@ -295,7 +295,7 @@
           h3 PRODUCTOS  USADOS
           .d-flex.align-items-center.mb-3
             img(src='@/assets/curso/107.svg', alt='Texto que describa la imagen' style='width: 36px').me-2
-            p.mb-0 Garantía
+            p.mb-0 Garantía.
           .d-flex.align-items-center.mb-3
             img(src='@/assets/curso/108.svg', alt='Texto que describa la imagen' style='width: 36px').me-2
             p.mb-0  Retorno de embalajes.
@@ -336,67 +336,66 @@
       .col-lg-7
         p El complemento de los dispositivos, son las diferentes herramientas digitales (a través de los sistemas de información) que gestionan aquellas actividades desarrolladas dentro del almacén, cuya finalidad es apoyar la gestión física de la mercancía, desde que ingresa al almacén hasta que sale en los centros de almacenamiento o distribución e, incluso, hacer seguimiento a las devoluciones e inconsistencias.
     p.mb-5 Algunas de las herramientas digitales más usadas son:
-    .contenedor-slyder.p-5.bg-amarillo-claro.position-relative.mb-5
+    .contenedor-slyder.p-5.bg-amarillo-claro2.position-relative.mb-5
       .img-float: img(src='@/assets/curso/116.png', alt='Texto que describa la imagen')
-      SlyderA(tipo='b')
-        .img.position-absolute(src='@/assets/curso/116.png', alt='Texto que describa la imagen')
-        .row.justify-content-center
+      SlyderA(tipo='a')(mostrarIndicador='false')
+        .row.justify-content-center.py-5
           .col-md-5
             .rounded-3.overflow-hidden
-              figure
+              figure.img-rounded
                 img(src='@/assets/curso/118.jpg', alt='Texto que describa la imagen')
-          .col-md-5.mb-4.mb-md-0
+          .col-md-5.mb-4.mb-md-0.mt-5
             h4 SGA (Sistema de Gestión de Almacén)
             p Su función más importante es mantener controlado el stock de mercancía (número de existencias registradas, equivalente a existencias físicas).
-        .row.justify-content-center
+        .row.justify-content-center.py-5
           .col-md-5
             .rounded-3.overflow-hidden
-              figure
+              figure.img-rounded
                 img(src='@/assets/curso/119.jpg', alt='Texto que describa la imagen')
-          .col-md-5.mb-4.mb-md-0
-            h4 ERP (Enterprise Resource Planning)
+          .col-md-5.mb-4.mb-md-0.mt-5
+            h4 ERP (<em>Enterprise Resource Planning</em>)
             p Sistema Integral de Gestión Empresarial, que automatiza la mayoría de los procesos de la organización (administración, logística, producción y comercialización).  Lo ideal es lograr integrar los dos sistemas SGA-ERP pues comparten información y se complementan uno con el otro.
-        .row.justify-content-center
+        .row.justify-content-center.py-5
           .col-md-5
             .rounded-3.overflow-hidden
-              figure
+              figure.img-rounded
                 img(src='@/assets/curso/120.jpg', alt='Texto que describa la imagen')
-          .col-md-5.mb-4.mb-md-0
-            h4 EDI (Electronic Data Interchange)
+          .col-md-5.mb-4.mb-md-0.mt-5
+            h4 EDI (<em>Electronic Data Interchange</em>)
             p Realiza el traspaso de documentos comerciales a un formato normalizado. La información podrá ser compartida entre empresas.  No es un correo electrónico, pues los datos deben contar con un estándar internacional.
-        .row.justify-content-center
+        .row.justify-content-center.py-5
           .col-md-5
             .rounded-3.overflow-hidden
-              figure
+              figure.img-rounded
                 img(src='@/assets/curso/121.jpg', alt='Texto que describa la imagen')
-          .col-md-5.mb-4.mb-md-0
+          .col-md-5.mb-4.mb-md-0.mt-5
             h4 RFID
             p Sistema de navegación mediante radiofrecuencia, aplicable al transporte y/o ubicaciones dentro y fuera del almacén.
-        .row.justify-content-center
+        .row.justify-content-center.py-5
           .col-md-5
             .rounded-3.overflow-hidden
-              figure
+              figure.img-rounded
                 img(src='@/assets/curso/122.jpg', alt='Texto que describa la imagen')
-          .col-md-5.mb-4.mb-md-0
+          .col-md-5.mb-4.mb-md-0.mt-5
             h4 MPS (Plan Maestro de Producción)
             p Programa de producción a nivel superior que se usa para fijar el plan de producción de cualquier fábrica, decidiendo qué, cuánto y en qué fecha se va a fabricar, a medio plazo.
-        .row.justify-content-center
+        .row.justify-content-center.py-5
           .col-md-5
             .rounded-3.overflow-hidden
-              figure
+              figure.img-rounded
                 img(src='@/assets/curso/123.jpg', alt='Texto que describa la imagen')
-          .col-md-5.mb-4.mb-md-0
-            h4.fst-italic Business Inteligence
+          .col-md-5.mb-4.mb-md-0.mt-5
+            h4.fst-italic Business Intelligence
             p Sistema inteligente que recopila, analiza y visualiza, datos importantes sobre las actividades del almacén; a través del cual se puede obtener información como: rutas de transporte, recogida, recepción, tiempos de carga, emisiones de CO2, entre los principales.
-        .row.justify-content-center
+        .row.justify-content-center.py-5
           .col-md-5
             .rounded-3.overflow-hidden
-              figure
+              figure.img-rounded
                 img(src='@/assets/curso/124.jpg', alt='Texto que describa la imagen')
-          .col-md-5.mb-4.mb-md-0
+          .col-md-5.mb-4.mb-md-0.mt-5
             h4.fst-italic Supply Chain Management (SCM)
-            p Gestión de la Cadena de Suministro. Son todos aquellos procesos donde se planifica y controlan los elementos involucrados en las diferentes fases de la cadena de suministro; la logística hace parte del ciclo completo.
-    p.mb-5 Visualice en el siguiente esquema, un ejemplo en cual se aplican los sistemas informáticos en la gestión de un almacén:
+            p Gestión de la Cadena de Suministro. Son todos aquellos procesos donde se planifican y controlan los elementos involucrados en las diferentes fases de la cadena de suministro; la logística hace parte del ciclo completo.
+    p.mb-5 Visualice en el siguiente esquema, un ejemplo en el cual se aplican los sistemas informáticos en la gestión de un almacén:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10: img(src='@/assets/curso/117.svg')
     .tarjeta.color-primario.p-3.mb-5
@@ -413,13 +412,13 @@
                 i.fas.fa-file-download
     h3.titulo-tercero Integración de las tecnologías
     .row.justify-content-center.mb-5.mt-5
-      .col-lg-8
+      .col-lg-9
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.position-relative
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/125.jpg')})`}"
           )
-            .imagen-superior.position-absolute(style='bottom:0 ; left: 6%'): img(src='@/assets/curso/126.png')
-          .bloque-texto-g__texto.p-4
+            .imagen-superior.position-absolute(style='bottom:0 ; left: 12.5% ; width: 302px ; z-index:1' ): img(src='@/assets/curso/126.png')
+          .bloque-texto-g__texto.p-5(style="width: 65%")
             p.mb-0 El sistema de Radiofrecuencia (RFID) ha facilitado la gestión, el control y eficiencia en las operaciones del almacén; facilitando el almacenamiento y recuperación de la información (datos), apoyado en los diferentes dispositivos como lectores de códigos, de barras o infrarrojos y PDA, principalmente. 
     .titulo-sexto.color-primario
       h5 Figura 2
@@ -433,35 +432,35 @@
           li 
             .lista-ol--cuadro__vineta
               span a
-            | Mayor cantidad de datos almacenados.
+            p.mb-0.fw-bold Mayor cantidad de datos almacenados.
           li 
             .lista-ol--cuadro__vineta
               span b
-            | Facilitar la comunicación entre los diferentes sistemas .
+            p.mb-0.fw-bold Facilitar la comunicación entre los diferentes sistemas .
           li 
             .lista-ol--cuadro__vineta
               span c
-            | Información en tiempo real.
+            p.mb-0.fw-bold Información en tiempo real.
           li 
             .lista-ol--cuadro__vineta
               span d
-            | Poder hacer cambios y seguimiento durante la cadena de suministro.
+            p.mb-0.fw-bold Poder hacer cambios y seguimiento durante la cadena de suministro.
           li 
             .lista-ol--cuadro__vineta
               span e
-            | Mejor control de los inventarios y reducción de tiempos.
+            p.mb-0.fw-bold Mejor control de los inventarios y reducción de tiempos.
           li 
             .lista-ol--cuadro__vineta
               span f
-            | Aportar valor en el servicio de atención al cliente (mantiene informado).
+            p.mb-0.fw-bold Aportar valor en el servicio de atención al cliente (mantiene informado).
           li 
             .lista-ol--cuadro__vineta
               span g
-            | Amabilidad con el medioambiente, en la reducción de papelería.
+            p.mb-0.fw-bold Amabilidad con el medioambiente, en la reducción de papelería.
     Separador
     #t_3_5.titulo-segundo.color-acento-contenido
-      h2 Generalidades bases de datos
-    .row.justify-content-center.align-items-center.mb-5.mt-5
+      h2 3.5 Generalidades bases de datos
+    .row.justify-content-center.align-items-center.mb-5.mt-5.g-0
       .col-lg-4
           img(src='@/assets/curso/128.png', alt='Texto que describa la imagen')
       .col-lg-7
@@ -475,8 +474,7 @@
           img(src='@/assets/curso/129.jpg')
           .tarjeta-text-up__texto.p-4
             h4 Logística / Logística 4.0
-            br
-            br
+            
             p Denominada también Cuarta Revolución Industrial. 
               br
               br
@@ -486,8 +484,7 @@
           img(src='@/assets/curso/130.jpg')
           .tarjeta-text-up__texto.p-4
             h4 Fuentes de información
-            br
-            br
+            
             p Debido al volumen de datos que maneja la cadena de suministro es imposible analizar y tomar decisiones con métodos tradicionales. Se requiere organizar  diferentes fuentes para suministro de información:
             ul.lista-ul--color
               li
@@ -526,55 +523,55 @@
       .col-lg-8
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Novedad").align-items-center
-            .col-md-3
+            .col-md-2
               figure
-                img(src='@/assets/curso/131.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/131.svg', alt='Texto que describa la imagen' style='width: 102px')
             .col-md-9.mb-4.mb-md-0
-              p Condición especial de la mercancía identificada en el envío, como: novedad respecto al destino, cuando se hizo envío de mercancía a una ciudad diferente a la solicitada, con destino a un Apartado Aéreo, direcciones cruzadas o confusas. No se hacen entregas en cárceles o guarniciones militares.
+              p.mb-0.ps-3 Condición especial de la mercancía identificada en el envío, como: <b>novedad respecto al destino</b>, cuando se hizo envío de mercancía a una ciudad diferente a la solicitada, con destino a un Apartado Aéreo, direcciones cruzadas o confusas. No se hacen entregas en cárceles o guarniciones militares.
           .row(numero="2" titulo="Novedad respecto al Riesgo").align-items-center
-            .col-md-3
+            .col-md-2
               figure
-                img(src='@/assets/curso/132.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/132.svg', alt='Texto que describa la imagen' style='width: 102px')
             .col-md-9.mb-4.mb-md-0
-              p Riesgo en seguridad de la mercancía:  metales preciosos y otros objetos de valor.  Dinero en efectivo, joyas o piedras finas.  Bonos o tickets pagaderos al portador.  Antigüedades y obras de arte.
+              p.mb-0.ps-3 Riesgo en seguridad de la mercancía:  metales preciosos y otros objetos de valor.  Dinero en efectivo, joyas o piedras finas.  Bonos o tickets pagaderos al portador.  Antigüedades y obras de arte.
           .row(numero="3" titulo="Novedad respecto al embalaje y empaque").align-items-center
-            .col-md-3
+            .col-md-2
               figure
-                img(src='@/assets/curso/133.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/133.svg', alt='Texto que describa la imagen' style='width: 102px')
             .col-md-9.mb-4.mb-md-0
-              p Mercancía con empaque y embalaje no adecuados. Cajas de cartón amarradas o selladas inadecuadamente. Empaques deteriorados o manchados.  Empaques que contengan más de un rótulo diferente. 
+              p.mb-0.ps-3 Mercancía con empaque y embalaje no adecuados. Cajas de cartón amarradas o selladas inadecuadamente. Empaques deteriorados o manchados.  Empaques que contengan más de un rótulo diferente. 
                 br
                 |Unidades de empaque reutilizados. 
           .row(numero="4" titulo="Novedad por diligenciamiento de documentos").align-items-center
-            .col-md-3
+            .col-md-2
               figure
-                img(src='@/assets/curso/134.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/134.svg', alt='Texto que describa la imagen' style='width: 102px')
             .col-md-9.mb-4.mb-md-0
-              p No se encuentra el valor declarado, lo cual exime responsabilidades.  Falta de información, espacios sin diligenciar, tachones o enmendaduras en formularios.
+              p.mb-0.ps-3 No se encuentra el valor declarado, lo cual exime responsabilidades.  Falta de información, espacios sin diligenciar, tachones o enmendaduras en formularios.
           .row(numero="5" titulo="Inconsistencia").align-items-center
-            .col-md-3
+            .col-md-2
               figure
-                img(src='@/assets/curso/135.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/135.svg', alt='Texto que describa la imagen' style='width: 102px')
             .col-md-9.mb-4.mb-md-0
-              p Defectos de mercancía encontrados al verificar, según información de documentos que lo acompañan:  embalaje o entrega de la mercancía inadecuada según solicitud de pedido, cantidad o artículo erróneo, falta de algún artículo, error en los registros, ubicación incorrecta, etc.
+              p.mb-0.ps-3 Defectos de mercancía encontrados al verificar, según información de documentos que lo acompañan:  embalaje o entrega de la mercancía inadecuada según solicitud de pedido, cantidad o artículo erróneo, falta de algún artículo, error en los registros, ubicación incorrecta, etc.
           .row(numero="6" titulo="Indicador de desempeño").align-items-center
-            .col-md-3
+            .col-md-2
               figure
-                img(src='@/assets/curso/136.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/136.svg', alt='Texto que describa la imagen' style='width: 102px')
             .col-md-9.mb-4.mb-md-0
-              p Aquellos indicadores que se enfocan a cuantificar el desempeño de la gestión logística y cadena de abastecimiento.
+              p.mb-0.ps-3 Aquellos indicadores que se enfocan a cuantificar el desempeño de la gestión logística y cadena de abastecimiento.
           .row(numero="7" titulo="Logística").align-items-center
-            .col-md-3
+            .col-md-2
               figure
-                img(src='@/assets/curso/137.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/137.svg', alt='Texto que describa la imagen' style='width: 102px')
             .col-md-9.mb-4.mb-md-0
-              p Conjunto de actividades necesarias para prestar un servicio, desde la compra, empaquetado, transporte, envío y entrega al cliente final.  Cómo llevar de la manera más eficiente y eficaz la mercancía a los clientes.
+              p.mb-0.ps-3 Conjunto de actividades necesarias para prestar un servicio, desde la compra, empaquetado, transporte, envío y entrega al cliente final.  Cómo llevar de la manera más eficiente y eficaz la mercancía a los clientes.
           .row(numero="8" titulo="Hoja de carga").align-items-center
-            .col-md-3
+            .col-md-2
               figure
-                img(src='@/assets/curso/138.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/138.svg', alt='Texto que describa la imagen' style='width: 102px')
             .col-md-9.mb-4.mb-md-0
-              p Traer todo aquello que se requiere para desarrollar una actividad específica.
+              p.mb-0.ps-3 Traer todo aquello que se requiere para desarrollar una actividad específica.
     br
     br
     .row.justify-content-center.mb-5.mt-5
@@ -583,9 +580,9 @@
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/139.jpg')})`}"
           )
-            .imagen-superior.position-absolute(style='bottom:0 ; left: -3%'): img(src='@/assets/curso/140.png')
-          .bloque-texto-g__texto.p-4
-            p.mb-0 Dentro de la cadena logística existen cinco áreas genéricas: Planificación de pedios, Abastecimiento, Transporte, Gestión de Pedidos y Distribución.  En cada una de estas áreas se mide y controlan diferentes variables (expresados en indicadores), depende del tipo de organización.
+            .imagen-superior.position-absolute(style='bottom: 0; left: -5%'): img(src='@/assets/curso/140.png')
+          .bloque-texto-g__texto.p-5(style='width: 70%')
+            p.mb-0 <b>Dentro de la cadena logística existen cinco áreas genéricas:</b> Planificación de pedios, Abastecimiento, Transporte, Gestión de Pedidos y Distribución.  En cada una de estas áreas se mide y controlan diferentes variables (expresados en indicadores), depende del tipo de organización.
     p.mb-5 Esta es una explicación sintética de las cinco principales áreas de la cadena logística:
     .titulo-sexto.color-acento-
       h5 Tabla 10
@@ -629,14 +626,14 @@
               tr
                 td Entregas a tiempo
               tr
-                td Entregas Urgentes
+                td Entregas urgentes
               tr
                 td Envíos por pedido
               tr
                 td(rowspan='4').fw-bold.text-center Distribución
-                td Productividad  vs volúmen
+                td Productividad  vs. volumen
               tr
-                td Productividad vs mano de obra
+                td Productividad vs. mano de obra
               tr
                 td Unidades procesadas
               tr
@@ -653,15 +650,15 @@
               tr
                 td <b>Pedidos documentados sin errores</b>
               tr
-                td <b>Averías:</b> Por empaque o Durante el transporte.
+                td <b>Averías:</b> por empaque o Durante el transporte.
               tr
-                td <b>Servicio al cliente:</b>  Cumplimiento de tiempos y  entrega
+                td <b>Servicio al cliente:</b>  cumplimiento de tiempos y  entrega
     h3.titulo-tercero Registro de Inconsistencias y Novedades
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-lg-4
           img(src='@/assets/curso/141.png', alt='Texto que describa la imagen')
       .col-lg-7
-        p Dentro del proceso logístico existe un documento denominado Nota de entrega (Albarán) Su función es servir como respaldo y crédito de la entrega de mercancía al cliente, en las condiciones inicialmente pactadas y así generar la información para elaborar la factura. En el caso que la mercancía recibida no cumpla con lo solicitado o registrado en el pedido, podrá devolverse al sitio de despacho y dejar por escrito la salvedad de la devolución firmando y describiendo los detalles en el albarán.
+        p Dentro del proceso logístico existe un documento denominado Nota de entrega (albarán). Su función es servir como respaldo y crédito de la entrega de mercancía al cliente, en las condiciones inicialmente pactadas y así generar la información para elaborar la factura. En el caso que la mercancía recibida no cumpla con lo solicitado o registrado en el pedido, podrá devolverse al sitio de despacho y dejar por escrito la salvedad de la devolución firmando y describiendo los detalles en el albarán.
     p.mb-5 La información que debe contener es:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-11
@@ -669,7 +666,7 @@
           li 
             .lista-ol--cuadro__vineta
               span a
-            | Datos completos del remitente o quien envía la mercancía: Nombre, razón social, dirección, teléfono, correo electrónico, etc.
+            | Datos completos del remitente o quien envía la mercancía: nombre, razón social, dirección, teléfono, correo electrónico, etc.
               
           li 
             .lista-ol--cuadro__vineta
@@ -679,7 +676,7 @@
           li 
             .lista-ol--cuadro__vineta
               span c
-            | Transportista: Nombre del transportista o empresa transportadora.  Forma de envío.
+            | Transportista: nombre del transportista o empresa transportadora.  Forma de envío.
 
               
           li 
@@ -700,7 +697,7 @@
           li 
             .lista-ol--cuadro__vineta
               span g
-            | Datos completos Destinatario o quien recibe.  Lugar y condiciones de entrega.
+            | Datos completos destinatario o quien recibe.  Lugar y condiciones de entrega.
               
           li 
             .lista-ol--cuadro__vineta
@@ -715,7 +712,7 @@
           li 
             .lista-ol--cuadro__vineta
               span j
-            | Quién recibe: Nombre, identificación y firma de quien recibe o empresa receptora.
+            | Quién recibe: nombre, identificación y firma de quien recibe o empresa receptora.
               
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
@@ -792,6 +789,8 @@ export default {
     background-color: #7380df
 .bg-amarillo-claro
   background-color: #fff0cd
+.bg-amarillo-claro2
+  background-color: #fff7e6
 .bg-red
   background-color: #ffb6ae
 .contenedor-imagen-modal
@@ -885,9 +884,19 @@ export default {
     height: 90%
     background-color: rgba(255, 247, 230, 0.9)
     transition: all .5s ease-in-out
+    h4
+      margin-bottom: 20px
   &:hover
     .tarjeta-text-up__texto
       bottom: 0
 .boton-modal
   cursor: pointer
+.bloque-editado
+  .bloque-texto-g__texto
+    display: flex
+    width: 80%
+    margin-left: 108px
+    justify-content: end
+    p
+      width: 70%
 </style>

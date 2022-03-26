@@ -12,16 +12,16 @@
       |En general, en el proceso de preparación de pedidos se desarrollan las siguientes tareas:
     .row.mb-5.justify-content-center
       .col-lg-3
-        img(src='@/assets/curso/1.svg', alt='Texto que describa la imagen' style='width: 190px').mb-5.m-auto.hoverScale
+        img(src='@/assets/curso/1.svg', alt='Texto que describa la imagen' style='width: 190px').mb-3.m-auto.hoverScale
         .text-center: p Identificación del pedido (Nota de salida), con todos los datos puntuales del pedido, cliente y destino.
       .col-lg-3
-        img(src='@/assets/curso/2.svg', alt='Texto que describa la imagen' style='width: 190px').mb-5.m-auto.hoverScale
+        img(src='@/assets/curso/2.svg', alt='Texto que describa la imagen' style='width: 190px').mb-3.m-auto.hoverScale
         .text-center: p Condiciones logísticas para la entrega, incluyendo el tipo de vehículo requerido.
       .col-lg-3
-        img(src='@/assets/curso/3.svg', alt='Texto que describa la imagen' style='width: 190px').mb-5.m-auto.hoverScale
+        img(src='@/assets/curso/3.svg', alt='Texto que describa la imagen' style='width: 190px').mb-3.m-auto.hoverScale
         .text-center: p Información sobre la ruta y condiciones relevantes de acceso al lugar.
       .col-lg-3
-        img(src='@/assets/curso/4.svg', alt='Texto que describa la imagen' style='width: 190px').mb-5.m-auto.hoverScale
+        img(src='@/assets/curso/4.svg', alt='Texto que describa la imagen' style='width: 190px').mb-3.m-auto.hoverScale
         .text-center: p Asignación de identificación (consecutivo) para hacer seguimiento de la ubicación e informar así al cliente.
     p.mb-5 Tenga en cuenta los siguientes aspectos clave, en el inicio del proceso de alistamiento de pedidos:
     .row.justify-content-center.align-items-center.mb-5
@@ -38,7 +38,7 @@
               figure
                 img(src='@/assets/curso/6.png', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
-              p Regularmente, se preparan diferentes líneas de pedido, dependiendo de condiciones como: a) Requisitos del cliente, b) Fechas de entrega, c) Destino, d) Características de la mercancía y volumen, e) Picking f) Tipo de consolidación de pedidos.
+              p Regularmente, se preparan diferentes líneas de pedido, dependiendo de condiciones como: a) Requisitos del cliente, b) Fechas de entrega, c) Destino, d) Características de la mercancía y volumen, e) <em>Picking</em> f) Tipo de consolidación de pedidos.
           .row(numero="3" titulo="Objetivos de cumplimiento y calidad").align-items-center
             .col-md-6
               figure
@@ -48,12 +48,12 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Productos     
     .row.justify-content-center.mb-5
-      .col-lg-9
+      .col-lg-10
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/8.jpg')})`}"
           )
-          .bloque-texto-g__texto.p-4
+          .bloque-texto-g__texto.p-5
             p.mb-0 Un producto es el <b>“resultado de un conjunto de actividades mutuamente relacionadas o que interactúan, las cuales transforman elementos de entrada en resultados”</b> (ICONTEC, 2005).  Se puede definir que, para el sector de servicios postales, las entradas son aquellas mercancías y objetos encomendados para enviar o recibir en el territorio nacional o en el exterior, momento en el cual se convierte en un producto.
     p.mb-3 Dicho producto debe recorrer una serie de actividades como: recepción, clasificación, consolidación, embalaje, transporte y entrega, siempre sujeto a verificación o reporte de inconsistencias.
     p.mb-5 Algunas generalidades, de suma importancia, que se deben tener en cuenta, son:
@@ -70,13 +70,13 @@
       .tarjeta.color-primario.p-3(x="66%" y="55%" numero="4")
         p Las características de los productos permiten gestionar de una forma más efectiva los inventarios, almacenamiento y el alistamiento de pedidos.
       .tarjeta.color-primario.p-3(x="72%" y="74%" numero="5")
-        p <b>Peso – volumen:</b> Son medidas directamente proporcionales a los costos de almacenamiento y transporte.  Necesidades de equipos de manipulación y transporte.  Calculo de la densidad del producto.
+        p <b>Peso–volumen:</b> son medidas directamente proporcionales a los costos de almacenamiento y transporte.  Necesidades de equipos de manipulación y transporte.  Cálculo de la densidad del producto.
       .tarjeta.color-primario.p-3(x="56%" y="73%" numero="6")
-        p <b>Valor - peso:</b> Utilizada cuando el valor del producto se expresa en relación con el peso; diferente de los objetos valiosos como joyas, electrodomésticos, etc.
+        p <b>Valor-peso:</b> utilizada cuando el valor del producto se expresa en relación con el peso; diferente de los objetos valiosos como joyas, electrodomésticos, etc.
       .tarjeta.color-primario.p-3(x="27%" y="69%" numero="7")
-        p <b>Sustituible:</b> Cuando el cliente está dispuesto a tomar el servicio de otra marca, porque la primera no está disponible
+        p <b>Sustituible:</b> cuando el cliente está dispuesto a tomar el servicio de otra marca, porque la primera no está disponible
       .tarjeta.color-primario.p-3(x="24%" y="35%" numero="8")
-        p <b>Riesgos:</b> Características del producto como perecederos, inflamables, de valor o con facilidad de robo.  Por tanto, son de especial cuidado durante el manejo y transporte.
+        p <b>Riesgos:</b> características del producto como perecederos, inflamables, de valor o con facilidad de robo.  Por tanto, son de especial cuidado durante el manejo y transporte.
     h4.titulo-cuarto Normativa
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-lg-4
@@ -86,19 +86,19 @@
     p.mb-5 El desarrollo de este plan trajo consigo, eventualidades importantes tales como:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordion__normal")
       .row(titulo="Estructuración y aprobaciones de leyes")
-        .col-md-6.mb-4.mb-md-0
+        .col-md-6.mb-4.mb-md-0.ps-5.ms-3
           p Estructuración y aprobación de la Ley 1369 de 2009, la cual estableció el régimen legal de los servicios postales y los determinó como servicios públicos. 
-        .col-md-6
-          figure
+        .col-md-5
+          figure.img-rounded
             img(src='@/assets/curso/11.jpg', alt='Texto que describa la imagen')
       .row(titulo="Establecimiento de condiciones generales")
-        .col-md-6.mb-4.mb-md-0
+        .col-md-6.mb-4.mb-md-0.ps-5.ms-3
           p Expedición del Decreto 223 de 2014, que estableció las condiciones de prestación de los servicios comprendidos en el SPU y, a su vez, a los diferentes Decretos reglamentarios de la Ley 1369 de 2009; hoy en día compilados en el Decreto único reglamentario del sector TIC (Decreto 1078 de 2015). 
-        .col-md-6
-          figure
+        .col-md-5
+          figure.img-rounded
             img(src='@/assets/curso/12.jpg', alt='Texto que describa la imagen')
       .row(titulo="Marco normativo general").justify-content-center
-        .col-md-12.mb-4.mb-md-4
+        .col-md-12.mb-4.mb-md-4.ps-5.ms-3
           p Estas normas se constituyen en el actual marco normativo general para la prestación de los servicios postales, bajo los principios de calidad, eficiencia y universalidad en todo el territorio nacional.
           br
           br
@@ -107,16 +107,17 @@
           figure
             img(src='@/assets/curso/13.svg', alt='Texto que describa la imagen')
       .row(titulo="Normativa para productos").justify-content-center
-        .col-md-12.mb-4.mb-md-4
+        .col-md-12.mb-4.mb-md-4.ps-5.ms-3
           p En el año 2011, por medio del Decreto Ley 4170 el Gobierno Nacional creó el Sistema Colombia Compra eficiente, a través de la Agencia Nacional de Contratación Pública; uno de los propósitos es implementar normas en busca de la efectividad entre la oferta y la demanda en el mercado y criterios de racionalización normativa.  
           br
           br
           | Estructura lógica por segmentos específicos
         .col-md-6
           figure
-            img(src='@/assets/curso/14.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/14.svg', alt='Texto que describa la imagen').mb-3
+            p Nota: tomado de Guía para la codificación de bienes y servicios de acuerdo con el código estándar de productos y servicios de Naciones Unidas, V.14.080.  – Colombia Compra Eficiente
       .row(titulo="Unificación de criterios").justify-content-center
-        .col-md-12.mb-4.mb-md-4
+        .col-md-12.mb-4.mb-md-4.ps-5.ms-3
           p Con el ánimo de unificar criterios, se publica la Guía para la codificación de bienes y servicios de acuerdo con el código estándar de productos y servicios de Naciones Unidas, V.14.080. –UNSPSC; el cual estandariza la codificación de bienes y servicios, para fines comerciales de compras y adquisiciones.
         .col-md-10
           figure
@@ -128,13 +129,14 @@
           
           .tarjeta.color-acento-botones.w-100.rounded-0
             .text-white.p-4
-              p.text-center Si sedea ahondar en los aspectos más relevantes sobre la normativa asociada. Se le recomienda explorar la Guía para codificación de bienes y servicios
+              p.text-center Si se desea ahondar en los aspectos más relevantes sobre la normativa asociada, se le recomienda explorar la Guía para codificación de bienes y servicios.
     h4.titulo-cuarto.mb-5 Clasificación
       .row.justify-content-center.align-items-center.mb-5.mt-5
         .col-lg-4
             img(src='@/assets/curso/17.png', alt='Texto que describa la imagen')
         .col-lg-7
           p Clasificar los productos es una pieza importante en la gestión de pedidos; requiere de atención y claridad en la información para no cometer errores. Una correcta clasificación beneficia la gestión de pedidos porque ayuda a conocer y controlar la mercancía postal del almacén, permite implementar procesos automatizados que generen información precisa y en tiempo real, para la toma de decisiones, mejora del control de los inventarios y la clasificación de los pedidos.
+    p.mb-5 Todo producto debe cumplir un ciclo de vida, cuyas etapas están enmarcadas desde el punto de vista comercial, inicia con el lanzamiento del producto al mercado hasta la adquisición por parte de los consumidores, en este caso clientes.
     .row.mb-5
       .col-lg-4
         .tarjeta.rounded-0.bg--a-1.p-4.d-flex.flex-column.justify-content-center.h-100.hoverScale2
@@ -154,7 +156,7 @@
     p.mb-5 La clasificación de productos se puede establecer de acuerdo a los siguientes criterios:
     .titulo-sexto.color-primario
       h5 Tabla 6
-      span Clasificación de los Productos (mercancías) de acuerdo a sus características
+      span Clasificación de los productos (mercancías) de acuerdo a sus características
     .tabla-a.color-secundario.mb-5
       table
         thead.text-white
@@ -164,22 +166,22 @@
             th EJEMPLO
         tbody
           tr
-            td(rowspan='3') Estado Físico: Permite conocer cómo manipular la mercancía, dónde almacenarlas o cómo transportarlas; según la forma de envasado.
-            td Sólidos: Se subdividen en gráneles, productos compactados y animales vivos.
-            td Minerales, Muebles, Agricola (trigo, arroz, azucar)
+            td(rowspan='3') Estado Físico: permite conocer cómo manipular la mercancía, dónde almacenarlas o cómo transportarlas; según la forma de envasado.
+            td Sólidos: se subdividen en gráneles, productos compactados y animales vivos.
+            td Minerales, muebles, Agricola (trigo, arroz, azucar)
           tr
-            td Líquido: Se considera un producto a granel cuando no está envasado.
-            td Estables: Destinados a la alimentación (refrescos, leche, zumos...)
+            td Líquido: se considera un producto a granel cuando no está envasado.
+            td Estables: destinados a la alimentación (refrescos, leche, zumos...)
               br
-              |Inestables: Aquellos que por su composición química
+              |Inestables: aquellos que por su composición química
               br
               |cambian su estado físico (nitroglicerina)
           tr
-            td Gaseosos: Productos que se utilizan generalmente en la industria y tienen requisitos específicos para el almacenamiento.
+            td Gaseosos: productos que se utilizan generalmente en la industria y tienen requisitos específicos para el almacenamiento.
             td Gas para neveras<br>Extintores
           tr
-            td(rowspan='2') Propiedades:  Influyen directamente en las necesidades de conservación y mantenimiento de los productos.
-            td Duraderos: Son aquellos que no tienen fecha de caducidad y se almacenan sin tener un orden prioritario.  Esta propiedad es importante al momento de escoger el transporte adecuado para la carga.
+            td(rowspan='2') Propiedades:  influyen directamente en las necesidades de conservación y mantenimiento de los productos.
+            td Duraderos: son aquellos que no tienen fecha de caducidad y se almacenan sin tener un orden prioritario.  Esta propiedad es importante al momento de escoger el transporte adecuado para la carga.
             td Ropa de vestir, zapatos, textil para
               br
               |el hogar, artículos de limpieza.
@@ -188,10 +190,10 @@
               br
               |es por gamas, familias, modelos, tallas, etcétera, no mezclando unas con otras.
           tr
-            td Perecederos: Son aquellos productos cuya durabilidad están limitados por la fecha de caducidad o consumo. Necesitan condiciones especiales de almacenamiento.
+            td Perecederos: son aquellos productos cuya durabilidad están limitados por la fecha de caducidad o consumo. Necesitan condiciones especiales de almacenamiento.
             td Productos congelados, productos frescos, productos que se conservan a temperatura ambiente.
           tr
-            td Grado de peligrosidad: Clasificación establecida por la ONU o SGA (Sistema Globalmente Armonizado).
+            td Grado de peligrosidad: clasificación establecida por la ONU o SGA (Sistema Globalmente Armonizado).
             td Materiales y Objetos explosivos.
               br
               |Gases comprimidos, licuados o disueltos bajo presión.
@@ -199,9 +201,9 @@
               |Líquidos y sólidos inflamables.
               br
               |Comburentes, Tóxicos, Radioactivas, Corrosivas.
-            td Ejemplo: Oxígeno, Nitrógeno.  Estos productos necesitan cuidados especiales de manipulación, transporte y almacenamiento.
+            td Ejemplo: oxígeno, Nitrógeno.  Estos productos necesitan cuidados especiales de manipulación, transporte y almacenamiento.
           tr
-            td(rowspan='4') Unidad de Medida: Aquellos productos medibles atendiendo la capacidad como litros, longitud, superficie, peso. Y de esta forma calcular el espacio que van a ocupar y establecer el número de envases, cajas, el volumen, unidad de carga, etc.
+            td(rowspan='4') Unidad de Medida: aquellos productos medibles atendiendo la capacidad como litros, longitud, superficie, peso. Y de esta forma calcular el espacio que van a ocupar y establecer el número de envases, cajas, el volumen, unidad de carga, etc.
             td Longitud
             td Listones de madera (metros)
           tr
@@ -214,7 +216,7 @@
             td Capacidad
             td Liquidos en metros cúbicos
           tr
-            td(rowspan='3') Rotación de Salida:  En función de la rotación, ésta mercancía debe ubicarse en un lugar MAS o Menos accesible en el almacenamiento.  La alta rotación tienen un ritmo elevado y baja, apenas tienen movimiento.
+            td(rowspan='3') Rotación de Salida:  en función de la rotación, ésta mercancía debe ubicarse en un lugar MAS o Menos accesible en el almacenamiento.  La alta rotación tienen un ritmo elevado y baja, apenas tienen movimiento.
             td Alta rotación
             td Productos de consumo
           tr
@@ -229,14 +231,14 @@
     br
     br
     .row.justify-content-center.mb-5
-      .col-lg-9
+      .col-lg-10
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.position-relative
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/21.jpg')})`}"
           )
             .imagen-superior.position-absolute(style='bottom:0 ; left: -7%'): img(src='@/assets/curso/22.png')
-          .bloque-texto-g__texto.p-4
-            p.mb-0 La preparación de pedidos es también llamada <em>PICKING</em>, y se define como el proceso mediante el cual se seleccionan y recogen los productos desde las estanterías, pasillos, y demás espacios de la bodega o almacén; con el objetivo de organizar y preparar la mercancía y objetos postales para ser embalados (PACKING) y enviados a sus respectivos clientes finales.
+          .bloque-texto-g__texto.p-5
+            p.mb-0 La preparación de pedidos es también llamada <em>picking</em>, y se define como el proceso mediante el cual se seleccionan y recogen los productos desde las estanterías, pasillos, y demás espacios de la bodega o almacén; con el objetivo de organizar y preparar la mercancía y objetos postales para ser embalados (<em>packing</em>) y enviados a sus respectivos clientes finales.
     p.mb-5 Los principales objetivos en la preparación de pedidos son reducir recorridos, disminuir tiempos y operaciones, y mantener una rotación de stock precisa; para lograr eficiencia en este proceso es importante el desarrollo de las siguientes fases:
     figure.mb-5
       img(src='@/assets/curso/23.svg', alt='Texto que describa la imagen')
@@ -276,25 +278,25 @@
                 th(colspan='2')
             tbody
               tr
-                td.p-4.fw-bold(rowspan='2') Persona al Producto
+                td.p-4.fw-bold(rowspan='2' ) Persona al producto
                 td.p-4 La persona se desplaza a pie hasta el producto.
               tr
-                td <b>Requisito:</b> Cantidad de pedidos baja, almacén pequeño, distancias cortas, uso de equipos manuales.
+                td.p-4 <b>Requisito:</b> cantidad de pedidos baja, almacén pequeño, distancias cortas, uso de equipos manuales.
               tr
-                td.p-4.fw-bold(rowspan='2') Producto a la Persona
+                td.p-4.fw-bold(rowspan='2') Producto a la persona
                 td.p-4 Desplazamiento de los pedidos hasta las personas en forma manual o automática.
               tr
-                td <b>Requisito:</b> Cantidad de pedidos medio-alto, salida del producto en unidades o cajas, distancias medio-largas, abastecimiento con palé, utilización de sistemas de gestión informáticos (SGA) en la preparación de pedidos.
+                td.p-4 <b>Requisito:</b> cantidad de pedidos medio-alto, salida del producto en unidades o cajas, distancias medio-largas, abastecimiento con palé, utilización de sistemas de gestión informáticos (SGA) en la preparación de pedidos.
               tr
                 td.p-4.fw-bold(rowspan='2') Una persona – <br> varios pedidos
                 td.p-4 La persona se desplaza hasta el producto; aunque conlleva a una doble planificación y gestión.
               tr
-                td <b>Requisito:</b> Cantidad de pedidos media-alta, cantidad de líneas de pedido medio, los medios para movilizar utilizados normalmente son carretillas de dos niveles, y aplicación de recursos informáticos como el código de barras.
+                td.p-4 <b>Requisito:</b> cantidad de pedidos media-alta, cantidad de líneas de pedido medio, los medios para movilizar utilizados normalmente son carretillas de dos niveles, y aplicación de recursos informáticos como el código de barras.
               tr
                 td.p-4.fw-bold(rowspan='2') Varias personas –<br> varios pedidos
                 td.p-4 Las personas se desplazan hasta los productos para prepararlos cuando lo requieran por sus características y a la vez en el mismo pedido se debe aplicar un sistema de producto a la persona.
               tr
-                td <b>Requisito:</b>  Desfragmentar el pedido y separar los productos; por ejemplo: tornillos de 5 cm y tuercas de 5 cm; un producto fresco de uno congelado, etc. Posterior se consolida el pedido para realizar un solo envío.
+                td.p-4 <b>Requisito:</b>  desfragmentar el pedido y separar los productos; por ejemplo: tornillos de 5 cm y tuercas de 5 cm; un producto fresco de uno congelado, etc. Posterior se consolida el pedido para realizar un solo envío.
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3 Documentos asociados al alistamiento y almacenaje
     .row.justify-content-center.align-items-center.mb-5.mt-5
@@ -303,7 +305,7 @@
         .col-lg-7
           p El objetivo de los documentos (registros) asociados al alistamiento y almacenaje es saber dónde está ubicada la mercancía, quiénes son los responsables de la gestión y el control de la misma dentro de la cadena logística.  Existen categorías generales de los documentos como: Comerciales, Operativos, Administrativos, de Transporte, Seguro y Financieros.
     p.mb-5 En el recurso, que se muestra a continuación, se presentan los aspectos más importantes que se deben tener en cuenta en lo que respecta a los documentos asociados al alistamiento y almacenaje:
-    figure
+    figure.mb-5 
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     #t_1_4.titulo-segundo.color-acento-contenido
@@ -341,7 +343,7 @@
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/27.svg', alt='Texto que describa la imagen')
-      .row(x="69%" y="57%" tooltip="Zona de recepcion" numero="").align-items-center
+      .row(x="71.3%" y="57%" tooltip="Zona de recepción" numero="").align-items-center
         .col-lg-8
           h4 Zona de recepción
           p Zona de entrada de la mercancía, donde se realiza un control cuantitativo (unidades correctas con el registro) y cualitativo de la mercancía (calidad y estado).  Posteriormente será clasificada y distribuida en la bodega.
@@ -351,18 +353,18 @@
           h4 Zona de carga y descarga
           p Área donde se desarrollan actividades de descarga de los vehículos que traen la mercancía, procedente de los proveedores y las devoluciones que realizan los clientes; esta zona cuenta con muelles de carga y descarga.  Aquí se realiza el primer punto de control.
         .col-lg-4: img(src='@/assets/curso/29.jpg')
-      .row(x="70%" y="34%" tooltip="Zona de Cuarentena" numero="").align-items-center
+      .row(x="70%" y="34%" tooltip="Zona de cuarentena" numero="").align-items-center
         .col-lg-8
-          h4 Zona de Cuarentena
+          h4 Zona de cuarentena
           p Esta zona aplica más para aquellas bodegas que almacenan productos farmacéuticos o agro-alimentos, los cuales, por normativa, exige unos análisis previos al almacenamiento para saber si están en buen estado o no.  Por tanto, hasta no saber el estado no podrán almacenar.
         .col-lg-4: img(src='@/assets/curso/30.jpg')
       .row(x="39%" y="27%" tooltip="Almacenaje" numero="").align-items-center
         .col-lg-12
           h4 Zona de Almacenamiento
-          p Lugar donde se depositan mercancías hasta registrar la expedición; aquí se diferencian dos áreas: A) Stock, destinada a reserva de productos, que se trasladan a otras áreas donde se prepararán para consolidación. El almacenamiento se realiza en estanterías industriales para aprovechamiento de la superficie horizontal y altura, dependiendo de las características del producto almacenado.  B) Picking, donde se preparan pedidos para embalaje.  Los tiempos y recorrido de la mercancía son cortos; aquí son necesarios equipos de manipulación de mercancía específicos y soluciones de almacenamiento como cartón flow o estantería para cargas livianas.
-      .row(x="57%" y="27%" tooltip="Zona espera" numero="").align-items-center
+          p Lugar donde se depositan mercancías hasta registrar la expedición; aquí se diferencian dos áreas: A) Stock, destinada a reserva de productos, que se trasladan a otras áreas donde se prepararán para consolidación. El almacenamiento se realiza en estanterías industriales para aprovechamiento de la superficie horizontal y altura, dependiendo de las características del producto almacenado.  B) <em>Picking</em>, donde se preparan pedidos para embalaje.  Los tiempos y recorrido de la mercancía son cortos; aquí son necesarios equipos de manipulación de mercancía específicos y soluciones de almacenamiento como cartón flow o estantería para cargas livianas.
+      .row(x="57%" y="27%" tooltip="Zona de espera" numero="").align-items-center
         .col-lg-8
-          h4 Zona de Espera
+          h4 Zona de espera
           p Esta zona es utilizada, por lo general, para atender imprevistos que se puedan presentar como: rapidez o lentitud en la preparación de los pedidos y que lleguen a generar adelantos o retrasos al momento de hacer entrega al transportador.
         .col-lg-4: img(src='@/assets/curso/31.jpg')
       .row(x="29%" y="27%" tooltip="Zona envasado" numero="").align-items-center
@@ -370,19 +372,19 @@
           h4 Zona de Envasado
           p Envasado o re-envasado, esta zona se encuentra en aquellas bodegas o almacenes donde es necesario volver a envasar o repaletizar (estibar) y conformar nuevas unidades de carga, por razones de almacenamiento, sanidad e higiene.
         .col-lg-4: img(src='@/assets/curso/32.jpg')
-      .row(x="63%" y="34%" tooltip="Zona envasado" numero="").align-items-center
+      .row(x="63%" y="34%" tooltip="Embalaje y etiquetado" numero="").align-items-center
         .col-lg-8
-          h4 Zona de etiquetado
+          h4 Zona de embalaje y etiquetado
           p Aquí se realiza todo el proceso de acondicionamiento de productos para protegerlos, temporalmente, para posterior manipulación y transporte; el embalaje puede ser manual o a través de equipos automatizados. Esta zona debe ubicarse cerca de mecanismos de envasado, en caso de ser necesario, y edición de etiquetas para registrar en medios informáticos.
         .col-lg-4: img(src='@/assets/curso/33.jpg')
       .row(x="44%" y="65%" tooltip="Consolidación" numero="").align-items-center
         .col-lg-8
-          h4 Zona de Consolidación
+          h4 Zona de consolidación
           p Aquí se agrupa una variedad de productos que correspondan a un mismo pedido, incluso de diferentes proveedores y así realizar un envío de mayor volumen a menor costo. En algunas ocasiones esta actividad la realiza, directamente, la empresa de transporte.
         .col-lg-4: img(src='@/assets/curso/34.jpg')
-      .row(x="44%" y="53%" tooltip="Zona Ténica" numero="").align-items-center
+      .row(x="44%" y="53%" tooltip="Zona técnica" numero="").align-items-center
         .col-lg-8
-          h4 Zona Técnica
+          h4 Zona técnica
           p Aquí se desarrollan actividades, principalmente, de mantenimiento de equipos técnicos y mecánicos que utilice el área operativa; en ocasiones es compartido el espacio con elementos que han sido dados de baja o son deficientes para la operación. Se sugiere que esta zona se encuentre retirada del resto de las áreas por seguridad del personal y la propia mercancía.
         .col-lg-4: img(src='@/assets/curso/35.jpg')
       .row(x="49%" y="80%" tooltip="Administrativa" numero="").align-items-center
@@ -407,7 +409,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.text-small.mb-0 Profundice en los aspectos más importantes, relativos a las zonas del almacén, estudiando conscientemente el documento: <b>Guía del Almacén en la cadena logística.</b>
+              p.text-small.mb-0 Profundice en los aspectos más importantes, relativos a las zonas del almacén, estudiando conscientemente el documento: <b>guía del Almacén en la cadena logística.</b>
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/documento4.pdf')" target="_blank")
                 span Ver más 

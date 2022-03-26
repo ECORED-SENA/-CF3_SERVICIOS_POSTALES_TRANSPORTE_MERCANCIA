@@ -23,7 +23,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'ComponentesAlistamiento de pedidos',
+        titulo: 'Alistamiento de pedidos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -272,7 +272,7 @@ export default {
       texto:
         'Gobierno de Colombia. (2011). Guía para la codificación de bienes y servicios de acuerdo con el código estándar de productos y servicios de Naciones Unidas, V.14.080. ',
       tipo: 'Guía',
-      dercarga: '/downloads/documento1.pdf',
+      descarga: '/downloads/documento1.pdf',
     },
     {
       texto:
