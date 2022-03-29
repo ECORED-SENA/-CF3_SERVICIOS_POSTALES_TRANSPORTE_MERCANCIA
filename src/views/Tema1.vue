@@ -463,8 +463,9 @@ export default {
 .tabla-a thead
   border-top: 0
 .imagen-superior
-  @media (max-width: $bp-max-lg)
-    display: none
+  @media (max-width: $bp-min-lg)
+    display: none !important
+
 .img-infografica-b.color-secundario .img-infografica-b__item__numero
   color: $white
 .img-infografica-b__item__tooltip
