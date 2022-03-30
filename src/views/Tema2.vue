@@ -14,62 +14,7 @@
     p.mb-5 Estas son algunas particularidades de la gestión de pedidos, que deben tenerse muy en cuenta:
     .row.justify-content-center.align-items-center
       .col-lg-10: img(src='@/assets/curso/38.svg')
-    ImagenInfografica.color-secundario.mb-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/68.svg', alt='Texto que describa la imagen')
-      .tarjeta.bg-amarillo-claro.p-3(x="22%" y="44%" numero="")
-        .texto-seis-alt.color-secundario
-          p Llegada de mercancía:
-            br
-            |Característica: asignación de muelle.
-
-            br
-            |Registro: entrada y salida vehículo
-      .tarjeta.bg-amarillo-claro.p-3(x="51.5%" y="30%" numero="")
-        .texto-seis-alt.color-secundario
-          p  Registro de mercancía:
-            br
-            |ingreso de mercancía al almacén.
-            br
-            br
-            |Registro: hoja de recepción.
-            br
-            |Equipo: sistema de codificación.
-      .tarjeta.bg-amarillo-claro.p-3(x="63%" y="44%" numero="")
-        .texto-seis-alt.color-secundario
-          p Etiquetado:
-            br
-            |reconocimiento físico del producto.
-            br
-            |generación de etiquetas de identificación.
-            br
-            br
-            |Equipo: impresora de etiquetas
-      .tarjeta.bg-amarillo-claro.p-3(x="86%" y="66%" numero="")
-        .texto-seis-alt.color-secundario
-          p Almacenamiento: 
-            br
-            |Ubicación de la mercancía dentro del almacén de acuerdo a características y condiciones.
-            br
-            br
-            |Equipo: equipos automáticos o semiautomáticos de carga y descarga.
-      .tarjeta.bg-amarillo-claro.p-3(x="47%" y="70%" numero="")
-        .texto-seis-alt.color-secundario
-          p Punto de control (cuantitativo y cualitativo): cantidad y estado de la mercancía, a través de una muestra aleatoria.
-            br
-            br
-            |Registro: lista de verificación o de chequeo
-            br
-            |Equipo: báscula (si aplica)
-      .tarjeta.bg-amarillo-claro.p-3(x="33%" y="64%" numero="")
-        .texto-seis-alt.color-secundario
-          p Verificación inicial:
-            br
-            |característica: datos registrados coinciden con la mercancía. Y descargue.
-            br
-            br
-            |Registro: nota de entrada (albarán)
+    
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Organización de pedidos
@@ -466,7 +411,62 @@
             span d
           p Es requisito evidenciar, en soporte documental, el desarrollo de las actividades e identificar, en el menor tiempo posible, aspectos como: <b>ubicación de la mercancía, responsables, destino del producto dentro de la cadena logística.</b>
     p.mb-4 Profundice, ahora, en los diferentes componentes de la operación logística, desde la fase de recepción:
-    
+    ImagenInfografica.color-secundario.mb-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/68.svg', alt='Texto que describa la imagen')
+      .tarjeta.bg-amarillo-claro.p-3(x="22%" y="44%" numero="")
+        .texto-seis-alt.color-secundario
+          p Llegada de mercancía:
+            br
+            |Característica: asignación de muelle.
+
+            br
+            |Registro: entrada y salida vehículo
+      .tarjeta.bg-amarillo-claro.p-3(x="51.5%" y="30%" numero="")
+        .texto-seis-alt.color-secundario
+          p  Registro de mercancía:
+            br
+            |ingreso de mercancía al almacén.
+            br
+            br
+            |Registro: hoja de recepción.
+            br
+            |Equipo: sistema de codificación.
+      .tarjeta.bg-amarillo-claro.p-3(x="63%" y="44%" numero="")
+        .texto-seis-alt.color-secundario
+          p Etiquetado:
+            br
+            |reconocimiento físico del producto.
+            br
+            |generación de etiquetas de identificación.
+            br
+            br
+            |Equipo: impresora de etiquetas
+      .tarjeta.bg-amarillo-claro.p-3(x="86%" y="66%" numero="")
+        .texto-seis-alt.color-secundario
+          p Almacenamiento: 
+            br
+            |Ubicación de la mercancía dentro del almacén de acuerdo a características y condiciones.
+            br
+            br
+            |Equipo: equipos automáticos o semiautomáticos de carga y descarga.
+      .tarjeta.bg-amarillo-claro.p-3(x="47%" y="70%" numero="")
+        .texto-seis-alt.color-secundario
+          p Punto de control (cuantitativo y cualitativo): cantidad y estado de la mercancía, a través de una muestra aleatoria.
+            br
+            br
+            |Registro: lista de verificación o de chequeo
+            br
+            |Equipo: báscula (si aplica)
+      .tarjeta.bg-amarillo-claro.p-3(x="33%" y="64%" numero="")
+        .texto-seis-alt.color-secundario
+          p Verificación inicial:
+            br
+            |característica: datos registrados coinciden con la mercancía. Y descargue.
+            br
+            br
+            |Registro: nota de entrada (albarán)
     //todo PENDIENTE AGREGAR EL DOCUMENTO ENLACE
     .tarjeta.color-primario.p-3.mb-5
       .row.justify-content-around.align-items-center.px-5
