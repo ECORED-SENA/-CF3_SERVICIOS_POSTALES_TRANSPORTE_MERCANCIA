@@ -115,7 +115,7 @@
     Separador
     #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2 Métodos de verificación
-    p.mb-5 Es de vital importancia lograr la identificación única por artículo o producto, con el objetivo de facilitar el control de los inventarios, tipo de servicio, verificación del stock, verificación y trazabilidad de la mercancía, operatividad en tiempo real, y reducción de costos.
+    p.mb-5 Es de vital importancia lograr la identificación única por artículo o producto, con el objetivo de facilitar el control de los inventarios, tipo de servicio, verificación del <em>stock</em>, verificación y trazabilidad de la mercancía, operatividad en tiempo real, y reducción de costos.
       br
       br
       |Los siguientes, son mecanismos de identificación para los productos; conózcalos y tome nota, en su libreta personal de apuntes, sobre los aspectos más relevantes de ellos:
@@ -346,7 +346,7 @@
                 img(src='@/assets/curso/118.jpg', alt='Texto que describa la imagen')
           .col-md-5.mb-4.mb-md-0.mt-5
             h4 SGA (Sistema de Gestión de Almacén)
-            p Su función más importante es mantener controlado el stock de mercancía (número de existencias registradas, equivalente a existencias físicas).
+            p Su función más importante es mantener controlado el <em>stock</em> de mercancía (número de existencias registradas, equivalente a existencias físicas).
         .row.justify-content-center.py-5
           .col-md-5
             .rounded-3.overflow-hidden
@@ -405,7 +405,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.text-small.mb-0 Refuerce los aspectos más importantes de este punto, ingresando a la biblioteca virtual SENA y estudiando el documento: <b>Gestión y pedido de Stock (Rubio Ferrer, J., 2013):</b>
+              p.text-small.mb-0 Refuerce los aspectos más importantes de este punto, ingresando a la biblioteca virtual SENA y estudiando el documento: <b>Gestión y pedido de <em>Stock</em> (Rubio Ferrer, J., 2013):</b>
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/49351?page=159" target="_blank")
                 span Ver más 
@@ -478,7 +478,7 @@
             p Denominada también Cuarta Revolución Industrial. 
               br
               br
-              |4.0 indica innovación, nuevas formas de hacer logística: el uso de herramientas novedosas optimiza el desarrollo de procesos, cadenas de suministro inteligentes (Big Data o Machine Learning). 
+              |4.0 indica innovación, nuevas formas de hacer logística: el uso de herramientas novedosas optimiza el desarrollo de procesos, cadenas de suministro inteligentes (<em>Big Data o Machine Learning</em>). 
       .col-lg-6.mb-3
         .tarjeta-text-up.mb-5.d-flex
           img(src='@/assets/curso/130.jpg')
@@ -600,7 +600,7 @@
                 td(rowspan='3').fw-bold.text-center Cadena de Abastecimiento
                 td Rotación de Inventario
               tr
-                td Stock de materias primas no planificadas
+                td <em>Stock</em> de materias primas no planificadas
               tr
                 td Errores de previsión de demanda
               tr
@@ -613,7 +613,7 @@
               tr
                 td Plazo de pagos
               tr
-                td Errores de acturación
+                td Errores de facturación
               tr
                 td(rowspan='7').fw-bold.text-center Transporte
                 td Costo transporte unitario

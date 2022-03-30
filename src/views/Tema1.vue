@@ -239,7 +239,7 @@
             .imagen-superior.position-absolute(style='bottom:0 ; left: -7%'): img(src='@/assets/curso/22.png')
           .bloque-texto-g__texto.p-5
             p.mb-0 La preparación de pedidos es también llamada <em>picking</em>, y se define como el proceso mediante el cual se seleccionan y recogen los productos desde las estanterías, pasillos, y demás espacios de la bodega o almacén; con el objetivo de organizar y preparar la mercancía y objetos postales para ser embalados (<em>packing</em>) y enviados a sus respectivos clientes finales.
-    p.mb-5 Los principales objetivos en la preparación de pedidos son reducir recorridos, disminuir tiempos y operaciones, y mantener una rotación de stock precisa; para lograr eficiencia en este proceso es importante el desarrollo de las siguientes fases:
+    p.mb-5 Los principales objetivos en la preparación de pedidos son reducir recorridos, disminuir tiempos y operaciones, y mantener una rotación de <em>stock</em> precisa; para lograr eficiencia en este proceso es importante el desarrollo de las siguientes fases:
     figure.mb-5
       img(src='@/assets/curso/23.svg', alt='Texto que describa la imagen')
     p.mb-5 Dentro de la preparación de pedidos existen tres factores importantes: número de personas, sistema de extracción del producto, recorrido y movimiento de las personas, como se describen en las tablas que se muestran a continuación: 
@@ -361,7 +361,7 @@
       .row(x="39%" y="27%" tooltip="Almacenaje" numero="").align-items-center
         .col-lg-12
           h4 Zona de Almacenamiento
-          p Lugar donde se depositan mercancías hasta registrar la expedición; aquí se diferencian dos áreas: A) Stock, destinada a reserva de productos, que se trasladan a otras áreas donde se prepararán para consolidación. El almacenamiento se realiza en estanterías industriales para aprovechamiento de la superficie horizontal y altura, dependiendo de las características del producto almacenado.  B) <em>Picking</em>, donde se preparan pedidos para embalaje.  Los tiempos y recorrido de la mercancía son cortos; aquí son necesarios equipos de manipulación de mercancía específicos y soluciones de almacenamiento como cartón flow o estantería para cargas livianas.
+          p Lugar donde se depositan mercancías hasta registrar la expedición; aquí se diferencian dos áreas: A) <em>Stock</em>, destinada a reserva de productos, que se trasladan a otras áreas donde se prepararán para consolidación. El almacenamiento se realiza en estanterías industriales para aprovechamiento de la superficie horizontal y altura, dependiendo de las características del producto almacenado.  B) <em>Picking</em>, donde se preparan pedidos para embalaje.  Los tiempos y recorrido de la mercancía son cortos; aquí son necesarios equipos de manipulación de mercancía específicos y soluciones de almacenamiento como <em>cartón flow</em> o estantería para cargas livianas.
       .row(x="57%" y="27%" tooltip="Zona de espera" numero="").align-items-center
         .col-lg-8
           h4 Zona de espera

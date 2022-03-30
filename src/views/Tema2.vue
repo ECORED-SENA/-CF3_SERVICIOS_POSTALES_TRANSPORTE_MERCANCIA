@@ -33,7 +33,7 @@
             |ingreso de mercancía al almacén.
             br
             br
-            |registro: hoja de recepción.
+            |Registro: hoja de recepción.
             br
             |Equipo: sistema de codificación.
       .tarjeta.bg-amarillo-claro.p-3(x="63%" y="44%" numero="")
@@ -185,7 +185,7 @@
     h3.titulo-tercero <em>Picking</em> y consolidación de mercancía
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-lg-7
-        p El picking es la actividad que realiza un equipo de operarios al momento de preparar los pedidos; consiste en la recogida y consolidación de cargas no unitarias que componen el pedido de un cliente. El picking es una de las actividades más costosas en el almacenamiento, puesto que implica desplazamientos y recorridos del personal; representa entre el 45% y 75% del costo total de la operación.
+        p El <em>picking</em> es la actividad que realiza un equipo de operarios al momento de preparar los pedidos; consiste en la recogida y consolidación de cargas no unitarias que componen el pedido de un cliente. El <em>picking</em> es una de las actividades más costosas en el almacenamiento, puesto que implica desplazamientos y recorridos del personal; representa entre el 45% y 75% del costo total de la operación.
         .cajon.color-acento-contenido.bg-3-claro.p-4.mb-4
           p.fw-bold.mb-0 De otro lado, la consolidación de mercancía es la combinación de un conjunto de envíos individuales e independientes, en un mismo cargamento, para reducir costos generales de transporte. 
       .col-lg-4
@@ -237,7 +237,7 @@
       .tarjeta-slide-down.tarjeta.color-primario.p-4.mb-3
         .contenedor-imagen
           img(src='@/assets/curso/54.svg', alt='Texto que describa la imagen').mb-4
-        h3.text-center.mb-5 PICKING
+        h3.text-center.mb-5 <em>PICKING</em>
         .d-flex.justify-content-center
           ul.lista-ul
             li.mb-0
@@ -297,7 +297,7 @@
         thead
           tr.bg-blue.text-white
             th CRITERIOS
-            th TIPOS DE PICKING
+            th TIPOS DE <em>PICKING</em>
             th DESCRIPCIÓN
         tbody
           tr
@@ -657,10 +657,12 @@ export default {
   .imagen-up
     transition: bottom  .5s ease-in-out
     position: absolute
-    bottom: -200%
+    bottom: -250%
     left: 0
+    width: 100%
     img
-      height: 100%
+      width: 100%
+      // height: 100%
 
 
   &:hover
