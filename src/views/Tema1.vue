@@ -307,7 +307,7 @@
     p.mb-5 En el recurso, que se muestra a continuación, se presentan los aspectos más importantes que se deben tener en cuenta en lo que respecta a los documentos asociados al alistamiento y almacenaje:
     figure.mb-5 
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/N7tHo0f2wVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     #t_1_4.titulo-segundo.color-acento-contenido
       h2 1.4 Zonas del almacén
     p.mb-5 El desarrollo del proceso logístico requiere de un conjunto de medios y métodos para desarrollar la actividad o servicio específico; por tanto, requiere de la optimización de los recursos para conseguir los mejores resultados.  Uno de los principales recursos es el almacén, el cual sirve de elemento regulador en el flujo de las mercancías en la red logística.
@@ -324,7 +324,6 @@
           .bloque-texto-g__texto.p-5
             p.mb-0 El almacén podría definirse como aquella locación donde se realizan funciones de recepción, manipulación, conservación, protección y posterior despacho de productos.
 
-    //todo PENDIENTE AGREGAR EL DOCUMENTO ENLACE
     .tarjeta.color-primario.p-3.mb-5
       .row.justify-content-around.align-items-center.px-5
         .col-3.col-sm-2.col-lg-1
@@ -337,7 +336,6 @@
               a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/documento0.pdf')" target="_blank")
                 span Ver más 
                 i.fas.fa-file-download
-    //todo PENDIENTE AGREGAR EL DOCUMENTO ENLACE
     p.mb-5  Explore las distintas zonas del almacén e identifique las particularidades que, de cada una, son importantes por su aporte a la cadena logística:
     ImagenInfograficaB.color-secundario.mb-5
       template(v-slot:imagen)
