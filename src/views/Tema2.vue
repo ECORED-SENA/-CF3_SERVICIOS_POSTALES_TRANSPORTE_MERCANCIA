@@ -13,7 +13,7 @@
         p El proceso de planificación y gestión de pedidos, hace parte de la planeación estratégica de la empresa, dado que debe ofrecer soluciones en cuanto a recursos, comunicación, políticas, objetivos y metas de la organización.  Dentro de las principales actividades que se deben organizar para una efectiva gestión de pedidos está el diseño de la red de distribución, acorde con la demanda y capacidad de respuesta frente a los clientes; teniendo en cuenta las características de las instalaciones, número de centros de distribución, ubicación, modalidad de transporte y talento humano.
     p.mb-5 Estas son algunas particularidades de la gestión de pedidos, que deben tenerse muy en cuenta:
     .row.justify-content-center.align-items-center
-      .col-lg-10: img(src='@/assets/curso/38.svg')
+      .col-lg-10: img(src='@/assets/curso/38.png')
     
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido
@@ -80,7 +80,7 @@
                   th(colspan='2')
               tbody
                 tr
-                  td(rowspan='3').px-5 <b>SEGÚN DIRECCION DE LA MERCANCIA</b><br><br> Intervienen recursos humanos y tecnológicos
+                  td(rowspan='3').px-5 <b>Según la separación de productos</b><br><br> Intervienen recursos humanos y tecnológicos
                   td.p-4 <b>HOMBRRE-PRODUCTO:</b> el operario va caminando hasta donde se encuentran los productos para irlos seleccionando y recogiendo.  Sistema más tradicional.
                 tr
                   td.p-4 <b>PRODUCTO-HOMBRE:</b> utilización de máquinas, sistemas y tecnologías automatizadas que se encargan de recoger los productos y llevarlos hasta el operario.
@@ -169,7 +169,7 @@
                 
     h4.titulo-cuarto Diferencias entre <em>picking</em> y <em>packing</em>
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-lg-10
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/53.jpg')})`}"
@@ -246,32 +246,32 @@
             th DESCRIPCIÓN
         tbody
           tr
-            td(rowspan='2').px-5 <b>SEGÚN LA SEPARACIÓN DE PRODUCTOS</b><br><br> No son compatibles; cada uno es diferente en función de la rotación y volumen de las mercancías.
-            td.text-center.fw-bold <em>BATCH PICKING</em>
-            td Extracción conjunta de las referencias de todos los pedidos agrupados y una separación posterior de cantidades para cada pedido respectivo
+            td(rowspan='2').px-5 <b>Según la separación de productos</b><br><br> No son compatibles; cada uno es diferente en función de la rotación y volumen de las mercancías.
+            td.text-center.fw-bold <em>Batch picking</em>
+            td Extracción conjunta de las referencias de todos los pedidos agrupados y una separación posterior de cantidades para cada pedido respectivo.
           tr
-            td.text-center.fw-bold <em>PICK TO BOX</em>
+            td.text-center.fw-bold <em>Pick to box</em>
             td Extracción de las referencias de forma agrupada; llevadas directamente en cajas a cada envío.  Se elimina el proceso de posterior separación.
           tr
-            td(rowspan='2').px-5 <b>SEGÚN SU REALIZACIÓN</b>
-            td.text-center.fw-bold  <em>PICKING IN SITU:</em>
+            td(rowspan='2').px-5 <b>Según su realización</b>
+            td.text-center.fw-bold  <em>Pocking in situ</em>
               br
               |- A nivel de suelo
               br
               |- Sobre estanterías
             td Denominado también de Hombre a Producto.  El operario recibe una lista de <em>picking</em> (<em>picking list</em>)  con la descripción específica del pedido.  Optimización de rutas para recoger el producto.
           tr
-            td.text-center.fw-bold ESTACIONES DE <em>PICKING</em>
-            td Utilización de medios automatizados que conducen la mercancía hasta los operarios.  Evitan múltiples desplazamientos
+            td.text-center.fw-bold Estaciones de <em>picking</em>
+            td Utilización de medios automatizados que conducen la mercancía hasta los operarios.  Evitan múltiples desplazamientos.
     h4.titulo-cuarto Consolidación de la mercancía
     p.mb-5 Esta actividad se desarrolla en el área de expedición cerca al muelle de carga; consiste en la agrupación de las mercancías procedentes de diferentes zonas de <em>picking</em>, de acuerdo a líneas de pedido o pequeños envíos en otros más grandes, permitiendo así un ahorro en costos de transporte a través de la agrupación.
       br
       br
       | Existen dos formas de consolidar la mercancía: agrupación por clientes y por destinos. A continuación, se explican brevemente:
-    .row.mb-5
-      .col-lg-6: img(src='@/assets/curso/58.svg')
+    .row
+      .col-lg-6: img(src='@/assets/curso/58.svg').mb-lg-0.mb-4
       .col-lg-6
-        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta color-acento-botones")
+        AcordionA.mb-1(tipo="b" clase-tarjeta="tarjeta color-acento-botones")
           div(titulo="Consolidación por clientes")
             ol.lista-ol--cuadro--color
               li
@@ -296,7 +296,7 @@
                 .lista-ol--cuadro__vineta
                   span b
                 | Se comparte el medio de transporte y parte del recorrido
-    h4.titulo-cuarto Priorización de pedidos
+    h4.mt-3.titulo-cuarto Priorización de pedidos
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-lg-4
           img(src='@/assets/curso/59.png', alt='Texto que describa la imagen')
@@ -333,7 +333,7 @@
           .imagen-up
             img(src='@/assets/curso/63.jpg')
     p.mb-5 Los pedidos, se priorizan bajo variables como:
-    .bg-amarillo-claro.p-5.mb-5
+    .bg-amarillo-claro.pt-5.px-5.pb-3.mb-5
       ol.lista-ol--cuadro.lista-ol--separador
         li
           .lista-ol--cuadro__vineta
@@ -351,7 +351,7 @@
           .lista-ol--cuadro__vineta
             span 4
           p.ps-4 <b>Compromiso del pedido:</b> análisis de fechas de entrega y cantidades del producto.  En caso de quedar pendiente parte del pedido, se registrará la reserva o cantidad necesaria para completar el pedido.
-        li
+        li.mb-1
           .lista-ol--cuadro__vineta
             span 5
           p.ps-4 <b>Estado del pedido:</b> revisión del estado exacto de la mercancía dentro del proceso de preparación y priorización del pedido; así mismo será posible conocer los plazos y costos pactados inicialmente con los clientes.
@@ -371,8 +371,8 @@
             p.mb-0 Con el manejo de información preciso y eficiente se puede gestionar, adecuadamente, cada una de las actividades de la cadena logística, minimizar errores, ahorrar tiempo y dinero, optimizar las entregas y mejorar el servicio al cliente.  
     p.mb-5 Dentro de la organización de pedidos se pueden establecer dos tipos de información:
     .row.mb-5
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5.h-100
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100.mb-3
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/66.svg' alt='AvatarTop')
             img(src='@/assets/curso/67.svg' alt='AvatarTop')
@@ -392,7 +392,7 @@
               h4 Documentación vertical
               p.mb-0 Aquellos documentos específicos para una sola actividad, por ejemplo, los registros asociados al transporte de la mercancía.
     p.mb-5 Durante la organización de pedidos:
-    .bg-amarillo-claro.p-5.mb-5
+    .bg-amarillo-claro.pt-5.px-5.pb-3.mb-5
       ol.lista-ol--cuadro.lista-ol--cuadro--separador
         li
           .lista-ol--cuadro__vineta
@@ -417,7 +417,8 @@
           img(src='@/assets/curso/68.svg', alt='Texto que describa la imagen')
       .tarjeta.bg-amarillo-claro.p-3(x="22%" y="44%" numero="")
         .texto-seis-alt.color-secundario
-          p Llegada de mercancía:
+          p <b>Llegada de mercancía</b>
+            br
             br
             |Característica: asignación de muelle.
 
@@ -425,48 +426,50 @@
             |Registro: entrada y salida vehículo
       .tarjeta.bg-amarillo-claro.p-3(x="51.5%" y="30%" numero="")
         .texto-seis-alt.color-secundario
-          p  Registro de mercancía:
+          p  <b>Registro de mercancía</b>
             br
-            |ingreso de mercancía al almacén.
             br
+            |Ingreso de mercancía al almacén.
             br
             |Registro: hoja de recepción.
             br
             |Equipo: sistema de codificación.
       .tarjeta.bg-amarillo-claro.p-3(x="63%" y="44%" numero="")
         .texto-seis-alt.color-secundario
-          p Etiquetado:
+          p <b>Etiquetado</b>
             br
-            |reconocimiento físico del producto.
             br
-            |generación de etiquetas de identificación.
+            |Reconocimiento físico del producto.
             br
+            |Generación de etiquetas de identificación.
             br
             |Equipo: impresora de etiquetas
       .tarjeta.bg-amarillo-claro.p-3(x="86%" y="66%" numero="")
         .texto-seis-alt.color-secundario
-          p Almacenamiento: 
+          p <b>Almacenamiento</b> 
+            br
             br
             |Ubicación de la mercancía dentro del almacén de acuerdo a características y condiciones.
-            br
             br
             |Equipo: equipos automáticos o semiautomáticos de carga y descarga.
       .tarjeta.bg-amarillo-claro.p-3(x="47%" y="70%" numero="")
         .texto-seis-alt.color-secundario
-          p Punto de control (cuantitativo y cualitativo): cantidad y estado de la mercancía, a través de una muestra aleatoria.
+          p <b>Punto de control (cuantitativo y cualitativo)</b> 
             br
             br
-            |Registro: lista de verificación o de chequeo
+            |Cantidad y estado de la mercancía, a través de una muestra aleatoria.
             br
-            |Equipo: báscula (si aplica)
+            |Registro: lista de verificación o de chequeo.
+            br
+            |Equipo: báscula (si aplica).
       .tarjeta.bg-amarillo-claro.p-3(x="33%" y="64%" numero="")
         .texto-seis-alt.color-secundario
-          p Verificación inicial:
-            br
-            |característica: datos registrados coinciden con la mercancía. Y descargue.
+          p <b>Verificación inicial</b>
             br
             br
-            |Registro: nota de entrada (albarán)
+            |Característica: datos registrados coinciden con la mercancía. Y descargue.
+            br
+            |Registro: nota de entrada (albarán).
     //todo PENDIENTE AGREGAR EL DOCUMENTO ENLACE
     .tarjeta.color-primario.p-3.mb-5
       .row.justify-content-around.align-items-center.px-5
@@ -494,7 +497,7 @@
     p.mb-5 Profundice en los aspectos y generalidades más importantes en lo relacionado con dispositivos de apoyo para gestión y control de productos y mercancías; visualice atentamente el recurso que se muestra a continuación:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/tr3WyTVtD7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3 Elaboración de registros
@@ -513,7 +516,7 @@
               figure
                 img(src='@/assets/curso/71.svg', alt='Texto que describa la imagen' style='width: 102px')
             .col-md-9.mb-4.mb-md-0
-              p.mb-0.ps-3 Solicitud formal para para registrar requerimientos de mercancías, a través de una hoja de pedido. Existen dos formas de realizar el pedido: Verbal y Escrito. En los dos casos se deja evidencia registrada en documento escrito y se envía copia al cliente, para futuras reclamaciones.
+              p.mb-0.ps-3 Solicitud formal para para registrar requerimientos de mercancías, a través de una hoja de pedido. Existen dos formas de realizar el pedido: verbal y escrito. En los dos casos se deja evidencia registrada en documento escrito y se envía copia al cliente, para futuras reclamaciones.
           .row(numero="2" titulo="Orden de <em>picking</em>").align-items-center
             .col-md-2
               figure

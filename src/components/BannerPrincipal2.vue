@@ -4,7 +4,7 @@
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
   )
     .row.banner-principal__row.position-relative.justify-content-center.align-items-center.g-0
-      .col-lg-7.col-xxl-6.py-4.py-sm-5.banner-principal__info.ps-5
+      .col-lg-6.col-xxl-6.py-4.py-sm-5.banner-principal__info.ps-5
         .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")
         .col-lg-12
@@ -171,6 +171,8 @@ export default {
     top: 5%
     right: -6%
     z-index: 99
+    @media (max-width: $bp-max-md)
+      display: none
 
 @keyframes float1
   0%

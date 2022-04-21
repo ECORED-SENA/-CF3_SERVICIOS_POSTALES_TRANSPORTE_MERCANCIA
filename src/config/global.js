@@ -128,7 +128,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -316,7 +316,7 @@ export default {
       {
         nombre: 'Fabián Leonardo Correa Díaz',
         cargo: 'Diseñador instruccional',
-        centro: 'Centro agropecuario La Granja, Regional Tolima',
+        centro: 'Centro Agropecuario La Granja Regional Tolima',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',
@@ -328,7 +328,7 @@ export default {
         nombre: 'Sandra Patricia Hoyos Sepúlveda',
         cargo: 'Revisión y corrección de estilo',
         centro:
-          'Centro para la Industria de la Comunicación Gráfica - Distrito capital',
+          'Centro para la Industria de la Comunicación Gráfica - Distrito Capital',
       },
     ],
     desarrolloProducto: [
