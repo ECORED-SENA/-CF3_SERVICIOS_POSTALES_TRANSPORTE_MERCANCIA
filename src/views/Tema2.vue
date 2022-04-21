@@ -497,7 +497,7 @@
     p.mb-5 Profundice en los aspectos y generalidades más importantes en lo relacionado con dispositivos de apoyo para gestión y control de productos y mercancías; visualice atentamente el recurso que se muestra a continuación:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/RNuG6wBkPwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3 Elaboración de registros

@@ -310,7 +310,7 @@
     p.mb-5 En el recurso, que se muestra a continuación, se presentan los aspectos más importantes que se deben tener en cuenta en lo que respecta a los documentos asociados al alistamiento y almacenaje:
     figure.mb-5 
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/N7tHo0f2wVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/C73875H9_uU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_1_4.titulo-segundo.color-acento-contenido
       h2 1.4 Zonas del almacén
