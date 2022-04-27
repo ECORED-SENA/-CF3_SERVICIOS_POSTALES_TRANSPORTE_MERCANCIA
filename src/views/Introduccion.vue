@@ -12,7 +12,7 @@
         p ¡Enhorabuena! Usted está a punto de comenzar el estudio del componente formativo <b>“Consolidación de objetos postales y mercancías”.</b> Inicie esta experiencia visualizando el recurso que se muestra a continuación. ¡Muchos éxitos!
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/tr3WyTVtD7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/1UtDaLvuFps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 
 </template>
