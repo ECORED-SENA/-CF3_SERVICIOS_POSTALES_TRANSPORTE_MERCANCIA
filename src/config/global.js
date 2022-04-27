@@ -244,7 +244,7 @@ export default {
     {
       termino: '<em>Packing</em>',
       significado:
-        'Actividad que realiza un equipo de operarios al momento de preparar los pedios, consiste en la recogida y consolidación de cargas no unitarias que componen el pedido de un cliente',
+        'Actividad que realiza un equipo de operarios al momento de preparar los pedidos, consiste en la recogida y consolidación de cargas no unitarias que componen el pedido de un cliente',
     },
     {
       termino: '<em>Picking</em>',

@@ -221,7 +221,7 @@
           ul.lista-ul
             li.mb-0
               i.fas.fa-angle-right
-              | <b>Acondicionamiento y empaquetado de pedidos.</b>
+              | Acondicionamiento y empaquetado de pedidos.
 
             li.mb-0
               i.fas.fa-angle-right
@@ -254,7 +254,7 @@
             td Extracción de las referencias de forma agrupada; llevadas directamente en cajas a cada envío.  Se elimina el proceso de posterior separación.
           tr
             td(rowspan='2').px-5 <b>Según su realización</b>
-            td.text-center.fw-bold  <em>Pocking in situ</em>
+            td.text-center.fw-bold  <em>picking in situ</em>
               br
               |- A nivel de suelo
               br

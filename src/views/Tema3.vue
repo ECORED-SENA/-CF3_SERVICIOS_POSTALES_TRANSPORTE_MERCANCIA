@@ -16,8 +16,7 @@
     p.mb-5 Estas son algunas particularidades de la gestión de pedidos, que deben tenerse muy en cuenta:
     .row.mb-5.justify-content-center.mb-5
       .col-lg-5.mb-3
-        .tarjetas-up_card.bg-purple-claro2.p-5(@mouseover="mostrarIndicador = false")
-          .indicador--hover(v-if="mostrarIndicador")
+        .tarjetas-up_card.bg-purple-claro2.p-5
           img(src='@/assets/curso/81.svg', alt='Texto que describa la imagen' style='width: 102px')
           .title.d-flex.align-items-center.mb-4
             h4.mb-0.me-2 ¡Atención!
@@ -26,8 +25,7 @@
               i.fas.fa-caret-down.fa-2x.color-primario.me-3
           p El éxito de las organizaciones se enmarca en el grado de satisfacción del cliente, por tanto, lo que se pretende es reducir, al máximo, reprocesos y pérdida de tiempo, traducido en, otras palabras, mayores costos.
       .col-lg-5.mb-3
-        .tarjetas-up_card.bg-red.p-5(@mouseover="mostrarIndicador = false")
-          .indicador--hover(v-if="mostrarIndicador")
+        .tarjetas-up_card.bg-red.p-5
           img(src='@/assets/curso/82.svg', alt='Texto que describa la imagen' style='width: 102px')
           .title.d-flex.align-items-center.mb-4
             h4.mb-0.me-2 ¡Importante!
@@ -194,11 +192,11 @@
             tbody
               tr
                 td(rowspan='3').fw-bold.px-5 Gestión de las existencias
-                td <b>LIFO:</b> último que entra es el primero que sale.  Habitualmente para productos que no tienen caducidad.
+                td <b>LIFO (Last In First Out):</b> último que entra es el primero que sale.  Habitualmente para productos que no tienen caducidad.
               tr
-                td <b>FIFO:</b> primero que entra es el primero que sale. La mercancía con mayor antigüedad es la que primero debe salir.
+                td <b>FIFO (First In First Out):</b> primero que entra es el primero que sale. La mercancía con mayor antigüedad es la que primero debe salir.
               tr
-                td <b>FEFO:</b> el primero que caduca es el primero que sale. La mercancía se ubica de acuerdo a la fecha de vencimiento, para que salga primero.
+                td <b>FEFO (First Expires First Out):</b> el primero que caduca es el primero que sale. La mercancía se ubica de acuerdo a la fecha de vencimiento, para que salga primero.
               tr
                 td(rowspan='3').fw-bold.px-5 Metodologías de conteo de la mercancía 
                 td <b>Periódico:</b> el contero se realiza al final del periodo.   
@@ -234,7 +232,7 @@
             .col.mb-3.mb-sm-0
               p.mb-0.text-white Para afianzar su saber y manejo de las Variables de las mercancías postales, dentro del proceso y métodos de verificación, visite el <b>Anexo_2_VariablesMercanciasPostales.</b>
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/documento5.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_2_VariablesMercanciasPostales.pdf')" target="_blank")
                 span Ver más 
                 i.fas.fa-file-download
     Separador
@@ -588,7 +586,7 @@
           )
             .imagen-superior.position-absolute(style='bottom: 0; left: -5%'): img(src='@/assets/curso/140.png')
           .bloque-texto-g__texto.p-5(style='width: 70%')
-            p.mb-0 <b>Dentro de la cadena logística existen cinco áreas genéricas:</b> planificación de pedios, abastecimiento, transporte, gestión de pedidos y distribución.  En cada una de estas áreas se mide y controlan diferentes variables (expresados en indicadores), depende del tipo de organización.
+            p.mb-0 <b>Dentro de la cadena logística existen cinco áreas genéricas:</b> planificación de pedidos, abastecimiento, transporte, gestión de pedidos y distribución.  En cada una de estas áreas se mide y controlan diferentes variables (expresados en indicadores), depende del tipo de organización.
     p.mb-5 Esta es una explicación sintética de las cinco principales áreas de la cadena logística:
     .titulo-sexto.color-acento-
       h5 Tabla 10
@@ -601,7 +599,7 @@
               tr
                 th ÁREAS
                 th INDICADORES
-            tbody
+            tbody.text-table
               tr
                 td(rowspan='3').fw-bold.text-center Cadena de abastecimiento
                 td Rotación de inventario
@@ -645,7 +643,7 @@
               tr
                 td Plazo de envío a centro de distribución
               tr
-                td(rowspan='7').fw-bold.bg-purple-claro.text-center Gestión de pedidos o de calidad
+                td(rowspan='7').fw-bold.text-center Gestión de pedidos o de calidad
                 td <b>Entregas perfectas:</b>  ingreso correcto y entregas sin daños ni averías
               tr
                 td <b>Entregas a tiempo</b> y lugar indicado

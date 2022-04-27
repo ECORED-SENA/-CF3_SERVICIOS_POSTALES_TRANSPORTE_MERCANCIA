@@ -156,7 +156,7 @@
           p.text-center Entre las empresas dedicadas al almacenamiento y/o comercialización hay algunas que se dedican sólo a una gama de productos, mientras otras comercializan gran variedad de artículos.
     p.mb-5 La clasificación de productos se puede establecer de acuerdo a los siguientes criterios:
     .titulo-sexto.color-primario
-      h5 Tabla 6
+      h5 Tabla 1
       span Clasificación de los productos (mercancías) de acuerdo a sus características
     .tabla-a.color-secundario.mb-5
       table
@@ -165,7 +165,7 @@
             th CRITERIO (según)
             th CLASIFICACIÓN
             th EJEMPLO
-        tbody
+        tbody.text-table
           tr
             td(rowspan='3') Estado físico: permite conocer cómo manipular la mercancía, dónde almacenarlas o cómo transportarlas; según la forma de envasado.
             td Sólidos: se subdividen en graneles, productos compactados y animales vivos.
@@ -337,7 +337,7 @@
             .col.mb-3.mb-sm-0
               p.mb-0 El almacén desempeña varias funciones, dependiendo de la clasificación de productos. <b>Explore el Anexo_1_PrincipalesFuncionesDelAlmacen</b> y amplíe sus conocimientos en este punto. 
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/documento0.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_1_PrincipalesFuncionesDelAlmacen.pdf')" target="_blank")
                 span Ver más 
                 i.fas.fa-file-download
     p.mb-5  Explore las distintas zonas del almacén e identifique las particularidades que, de cada una, son importantes por su aporte a la cadena logística:
